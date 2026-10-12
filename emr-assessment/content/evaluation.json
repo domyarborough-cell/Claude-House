@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Careficient EMR Intelligence Assessment",
+    "source": "Evaluation_Checklist_2026.pdf (Complete EMR Evaluation Guide & Case Study)",
+    "version": "2026.1",
+    "reviewNote": "Every 'careficient' statement below is a DRAFT written from the PDF and is marked TODO-REVIEW. Marketing must change status to 'approved' before launch. 'evidence' says where in the PDF the claim comes from: 'case-study' (pages 10-14), 'why-careficient' (pages 7-8), or 'checklist-only' (the item appears in the evaluation checklist on pages 2-5 but the PDF does not otherwise describe Careficient's implementation; confirm these with product).",
+    "scoringNote": "Score bands follow the product brief (40-50 / 30-39 / 10-29), which replaces the PDF's 31-50 / 23-31 / below-23 bands."
+  },
+  "settings": {
+    "onlyApprovedStatements": false,
+    "aiTimeoutMs": 20000,
+    "analyzingMinMs": 3500
+  },
+  "company": {
+    "name": "Careficient",
+    "tagline": "Purpose Built for Care. Powered by Partnership.",
+    "positioning": "Careficient is an EMR built exclusively for home health and hospice.",
+    "stats": [
+      { "value": 1100, "suffix": "+", "label": "agencies" },
+      { "value": 2700, "suffix": "+", "label": "locations" },
+      { "value": 80, "suffix": "+", "label": "capabilities analyzed" }
+    ],
+    "credentials": [
+      { "id": "chap", "label": "CHAP EMR Verification" },
+      { "id": "achc", "label": "ACHC EMR Verification" },
+      { "id": "age-friendly", "label": "Age-Friendly Care at Home verification" },
+      { "id": "inc5000", "label": "Inc. 5000 recognition (multiple years)" }
+    ],
+    "whySwitch": [
+      "Workflow breakdowns",
+      "Compliance risk",
+      "Operational inefficiencies",
+      "Billing delays or denials",
+      "Lack of support or accountability"
+    ],
+    "approvedStatements": [
+      { "id": "co-purpose", "text": "Careficient is built exclusively for home health and hospice. Every workflow, regulatory update, clinical form, billing rule, integration, and implementation methodology is engineered specifically for those programs.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      { "id": "co-unified", "text": "Careficient is a unified platform for every role. From intake to scheduling, clinical documentation, billing, quality review, and analytics, it removes silos, manual workarounds, and duplication.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      { "id": "co-compliance-first", "text": "Careficient takes a compliance-first approach: fully embedded regulatory updates, guardrails that prevent out-of-compliance actions, and audit-ready documentation trails.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      { "id": "co-partner", "text": "Customers stay with Careficient because of responsive U.S.-based support, transparent communication, continuous enhancements, and a deep understanding of post-acute care.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      { "id": "co-credibility", "text": "Careficient holds CHAP EMR Verification, ACHC EMR Verification, and Age-Friendly Care at Home verification, has earned Inc. 5000 recognition in multiple years, and supports 1,100+ agencies across 2,700+ locations nationwide.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      { "id": "co-clinicians", "text": "Careficient is built by nurses, for clinicians, and designed by clinicians and industry leaders so the system aligns with real-world demands.", "status": "TODO-REVIEW", "evidence": "why-careficient" }
+    ]
+  },
+  "answerOptions": [
+    { "id": "yes", "label": "Yes", "value": 1, "hint": "Fully in place and working" },
+    { "id": "partial", "label": "Partially", "value": 0.5, "hint": "Exists, but with workarounds" },
+    { "id": "no", "label": "No", "value": 0, "hint": "Missing or not usable" },
+    { "id": "unsure", "label": "Not sure", "value": null, "hint": "Verify with your vendor" }
+  ],
+  "ratingScale": [
+    { "rating": 5, "label": "Excellent", "description": "No issues, works perfectly", "minCoverage": 90 },
+    { "rating": 4, "label": "Good", "description": "Occasional minor issues, but mostly works well", "minCoverage": 75 },
+    { "rating": 3, "label": "Average", "description": "Works, but requires frequent workarounds", "minCoverage": 50 },
+    { "rating": 2, "label": "Poor", "description": "Causes inefficiencies and frustration", "minCoverage": 25 },
+    { "rating": 1, "label": "Failing", "description": "Major issues, costly or not available", "minCoverage": 0 }
+  ],
+  "scoreBands": [
+    { "id": "strong", "min": 40, "max": 50, "label": "Strong, but is it keeping up with industry changes?", "short": "Strong", "color": "green", "summary": "You're in a good place. The question is whether your EMR will keep up as regulations, payer rules, and quality programs change." },
+    { "id": "gaps", "min": 30, "max": 39, "label": "Gaps that are costing you time and money", "short": "Costly gaps", "color": "amber", "summary": "Your EMR has gaps that may be costing you time and money. It's time to explore better options." },
+    { "id": "holding-back", "min": 10, "max": 29, "label": "Your EMR is holding you back", "short": "Holding you back", "color": "red", "summary": "Your EMR is holding you back. You should consider switching immediately." }
+  ],
+  "programs": [
+    { "id": "home-health", "label": "Home Health" },
+    { "id": "hospice", "label": "Hospice" },
+    { "id": "both", "label": "Both" }
+  ],
+  "locationOptions": ["1", "2-5", "6-15", "16-50", "51+"],
+  "emrOptions": ["Axxess", "Homecare Homebase", "WellSky", "MatrixCare", "Netsmart", "KanTime", "Alora", "Brightree", "HEALTHCAREfirst", "Thornberry (NDoc)", "Paper / spreadsheets"],
+  "roles": ["Owner / CEO", "Administrator / Executive Director", "Director of Nursing / Clinical Manager", "Billing / Revenue Cycle", "Compliance / Quality", "Operations / Scheduling", "IT", "Other"],
+  "frustrations": [
+    { "id": "billing-denials", "label": "Billing denials", "category": "billing" },
+    { "id": "compliance-risk", "label": "Compliance risk", "category": "alerts" },
+    { "id": "documentation-time", "label": "Documentation time", "category": "documentation" },
+    { "id": "scheduling-evv", "label": "Scheduling / EVV", "category": "scheduling" },
+    { "id": "support", "label": "Support", "category": "support" },
+    { "id": "reporting", "label": "Reporting", "category": "analytics" }
+  ],
+  "categories": [
+    {
+      "id": "cloud",
+      "name": "Cloud-Based & Reliable",
+      "short": "Cloud",
+      "sections": ["platform-security"],
+      "careficient": { "text": "Careficient is an all-in-one, cloud-based EMR that enables real-time documentation, remote access to patient records, and mobile-friendly documentation with offline capabilities.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Gaps in platform and security put uptime, data protection, and field productivity at risk, and they get harder to fix as you add locations."
+    },
+    {
+      "id": "billing",
+      "name": "Integrated Billing & Claims",
+      "short": "Billing",
+      "sections": ["billing-claims-rcm"],
+      "careficient": { "text": "Careficient's integrated claims management, built-in revenue cycle management tools, and payer rule enforcement with automated workflow validation reduce errors and billing delays.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Billing gaps show up as denials, rework, and slower cash. Each manual step between documentation and payment is a place where revenue leaks."
+    },
+    {
+      "id": "eligibility",
+      "name": "Eligibility Automation",
+      "short": "Eligibility",
+      "sections": ["intake-referral-eligibility"],
+      "careficient": { "text": "Careficient connects intake, referral, and scheduling in one platform, with real-time eligibility verification built in.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Intake and eligibility gaps let unverified coverage and missed deadlines through at the start of care, where they become denials later."
+    },
+    {
+      "id": "orders",
+      "name": "Orders-Driven Workflows",
+      "short": "Orders",
+      "sections": ["care-planning-orders-idt"],
+      "careficient": { "text": "Careficient structures care around orders-driven workflows with guardrails that prevent out-of-compliance actions and audit-ready documentation trails.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      "fallbackImpact": "When care plans, orders, and IDT/IDG work aren't connected, teams rely on manual checks to keep visits, orders, and documentation aligned."
+    },
+    {
+      "id": "interop",
+      "name": "Interoperability & Integrations",
+      "short": "Interop",
+      "sections": ["interoperability"],
+      "careficient": { "text": "Careficient's all-in-one platform eliminates the need for multiple disconnected systems, with integrated claims management and EVV built into the same platform.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Interoperability gaps mean duplicate data entry across systems, which adds labor and increases the risk of errors and claim denials."
+    },
+    {
+      "id": "documentation",
+      "name": "Configurable Documentation",
+      "short": "Documentation",
+      "sections": ["clinical-documentation", "configuration-scalability"],
+      "careficient": { "text": "Careficient's intuitive, event-driven workflows reduce redundant tasks, with customizable clinical templates and real-time compliance prompts that help clinicians document accurately and quickly.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Rigid documentation and configuration slow clinicians down at the point of care and force workarounds whenever your agency grows or changes."
+    },
+    {
+      "id": "alerts",
+      "name": "Real-Time Alerts & Validation",
+      "short": "Alerts",
+      "sections": ["compliance-general", "hope"],
+      "careficient": { "text": "Careficient's compliance-first workflows include fully embedded regulatory updates, real-time compliance prompts, automated compliance checks, and built-in audit trails.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      "fallbackImpact": "Without real-time validation, compliance problems are found at audit or claim time instead of when they can still be fixed cheaply."
+    },
+    {
+      "id": "scheduling",
+      "name": "Advanced Scheduling & EVV",
+      "short": "Scheduling",
+      "sections": ["scheduling-evv-workforce"],
+      "careficient": { "text": "Careficient combines dynamic scheduling with automated visit verification (EVV), and automated visit tracking simplifies payroll.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Scheduling and EVV gaps lead to missed visits, frequency errors, and manual payroll and visit-verification work."
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics & Reporting",
+      "short": "Analytics",
+      "sections": ["reporting-analytics"],
+      "careficient": { "text": "Careficient provides real-time financial reporting, real-time financial insights, and customizable reporting.", "status": "TODO-REVIEW", "evidence": "case-study" },
+      "fallbackImpact": "Without timely, role-based reporting, leaders find out about quality, compliance, and financial problems after the fact."
+    },
+    {
+      "id": "support",
+      "name": "Implementation & Support Quality",
+      "short": "Support",
+      "sections": ["implementation-training-support"],
+      "careficient": { "text": "Careficient's implementation methodology is engineered specifically for home health and hospice, backed by responsive U.S.-based support, transparent communication, and continuous enhancements.", "status": "TODO-REVIEW", "evidence": "why-careficient" },
+      "fallbackImpact": "Weak implementation and support stretch go-live, leave staff under-trained, and make every issue take longer to resolve."
+    }
+  ],
+  "sections": [
+    {
+      "id": "platform-security",
+      "title": "Platform & Security",
+      "icon": "shield",
+      "intro": "The foundation: where your EMR runs, how it protects data, and whether clinicians can use it anywhere.",
+      "items": [
+        { "id": "ps-onc", "label": "ONC compliant", "impact": "Without ONC certification, you may struggle to meet federal interoperability and information-blocking expectations.", "careficient": { "text": "ONC compliance is part of Careficient's platform requirements.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-mobile", "label": "Mobile-optimized for real-time charting and decision support at the point of care", "impact": "Clinicians who can't chart in real time at the bedside finish notes later, which costs time and accuracy.", "careficient": { "text": "Careficient offers mobile-friendly documentation with offline capabilities, so field staff can chart in real time at the point of care.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ps-data-protection", "label": "Data protection: built-in redundancy, encryption, and multi-factor authentication", "impact": "Weak data protection exposes your agency to breach, downtime, and regulatory risk.", "careficient": { "text": "Careficient is built with redundancy, encryption, and multi-factor authentication for secure access.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-saas", "label": "SaaS / cloud-native", "impact": "Server-based systems add IT burden and make remote access and updates slower.", "careficient": { "text": "Careficient is an all-in-one, cloud-based EMR that enables real-time documentation and remote access to patient records.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ps-device", "label": "Device-agnostic access", "impact": "Being tied to specific devices limits how and where staff can work.", "careficient": { "text": "As a cloud-based platform with mobile accessibility, Careficient gives staff remote access to patient records.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ps-offline", "label": "Offline documentation", "impact": "Without offline charting, clinicians in rural or low-signal areas can't document during the visit.", "careficient": { "text": "Careficient's mobile documentation includes offline capabilities so field staff can keep documenting without a connection.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ps-environments", "label": "Separate PROD / TEST / TRAIN environments", "impact": "Without separate environments, testing changes and training staff happen in live patient data.", "careficient": { "text": "Careficient supports separate production, test, and training environments.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-mfa", "label": "Multi-factor authentication (MFA)", "impact": "Password-only access is one of the most common causes of account compromise.", "careficient": { "text": "Careficient includes multi-factor authentication for secure access.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-sso", "label": "Single sign-on (SSO) with Azure AD", "impact": "Without SSO, IT manages separate credentials and offboarding takes longer.", "careficient": { "text": "Careficient supports single sign-on with Azure AD.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-soc2", "label": "SOC 2 or equivalent security framework", "impact": "Without an independent security framework, you rely on vendor assurances instead of verified controls.", "careficient": { "text": "Careficient operates under a recognized security framework.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-field-permissions", "label": "Field-level permissions", "impact": "Coarse permissions expose more patient information to more people than necessary.", "careficient": { "text": "Careficient supports field-level permissions alongside role-based workflows.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ps-retention", "label": "Data retention controls", "impact": "Without retention controls, meeting record-retention requirements becomes a manual process.", "careficient": { "text": "Careficient includes data retention controls.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "interoperability",
+      "title": "Interoperability",
+      "icon": "nodes",
+      "intro": "How well your EMR exchanges data with referral sources, payers, pharmacies, and your back office.",
+      "items": [
+        { "id": "io-hl7", "label": "HL7 / FHIR / CDA", "impact": "Without standards-based exchange, referral and clinical data has to be rekeyed.", "careficient": { "text": "Careficient supports standards-based data exchange through HL7, FHIR, and CDA.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "io-api", "label": "API access", "impact": "Without API access, connecting other tools to your data depends on manual exports.", "careficient": { "text": "Careficient provides API access for integrations.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "io-pbm", "label": "PBM integrations", "impact": "Without PBM integration, medication coverage and costs are managed outside the chart.", "careficient": { "text": "Careficient offers pharmacy benefit manager (PBM) integrations.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "io-evv-aggregator", "label": "EVV aggregator integrations", "impact": "Without aggregator integration, state EVV submissions become a separate manual process.", "careficient": { "text": "Careficient's built-in EVV integrates with EVV aggregators.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "io-clearinghouse", "label": "Built-in clearinghouse (not bolt-on)", "critical": true, "impact": "A bolt-on clearinghouse adds a handoff between your EMR and payers, which means more rejections, more reconciliation, and slower cash.", "careficient": { "text": "Careficient's clearinghouse is built in, not bolted on, with integrated claims management and real-time claims tracking.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "io-efax", "label": "Built-in eFax", "impact": "Without built-in eFax, orders and referrals move through separate fax tools and get lost.", "careficient": { "text": "Careficient includes a built-in eFax function.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "io-gl", "label": "GL / accounting integrations", "impact": "Without GL integration, finance re-enters revenue data and closes the month slower.", "careficient": { "text": "Careficient integrates with general ledger and accounting systems.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "intake-referral-eligibility",
+      "title": "Intake, Referral & Eligibility",
+      "icon": "inbox",
+      "intro": "Everything that happens before the first visit, where clean data prevents denials later.",
+      "items": [
+        { "id": "ir-timestamp", "label": "Referral timestamp (exact date and time)", "impact": "Without exact referral timestamps, you can't prove timeliness of care or measure intake speed.", "careficient": { "text": "Careficient records the exact date and time of every referral.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ir-multiprogram", "label": "Multi-program support", "impact": "Separate intake for each program duplicates work and splits patient history.", "careficient": { "text": "Careficient is built exclusively for home health and hospice and supports both programs in one platform.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "ir-usps", "label": "USPS / NCOA address validation", "impact": "Unvalidated addresses cause returned mail, routing errors, and claim problems.", "careficient": { "text": "Careficient validates addresses against USPS and NCOA data.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ir-eligibility-reverify", "label": "Electronic benefit eligibility with automatic re-verification", "impact": "Without automatic re-verification, coverage changes go unnoticed until a claim is denied.", "careficient": { "text": "Careficient provides real-time eligibility verification with automatic re-verification.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ir-source-tracking", "label": "Referral source tracking", "impact": "Without referral source tracking, you can't see which relationships drive admissions.", "careficient": { "text": "Careficient tracks referral sources from intake onward.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ir-noe-noa", "label": "NOE / NOA automation tied to payer rules", "impact": "Late or missed NOE/NOA filings can cost reimbursement for days of care.", "careficient": { "text": "Careficient automates NOE and NOA filing using payer rules.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ir-eligibility", "label": "Eligibility checking", "impact": "Manual eligibility checks slow intake and miss coverage problems.", "careficient": { "text": "Careficient includes real-time eligibility verification.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ir-referral-entry", "label": "Referral entry", "impact": "Clunky referral entry slows intake and invites data errors that follow the patient.", "careficient": { "text": "Careficient's unified platform carries referral data from intake through scheduling and clinical documentation without duplicate entry.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "ir-scheduling-foundations", "label": "Scheduling foundations set at intake", "impact": "If intake doesn't set up scheduling, the first visit depends on manual handoffs.", "careficient": { "text": "In Careficient, intake flows directly into scheduling on the same platform.", "status": "TODO-REVIEW", "evidence": "why-careficient" } }
+      ]
+    },
+    {
+      "id": "clinical-documentation",
+      "title": "Clinical Documentation & Point of Care",
+      "icon": "clipboard",
+      "intro": "How fast and accurately clinicians can document, and how well the EMR keeps them compliant while they do.",
+      "items": [
+        { "id": "cd-cms-forms", "label": "Electronic CMS-compliant forms (admission, discharge, change in care)", "impact": "Non-compliant forms create rework at QA and risk at survey and audit.", "careficient": { "text": "Careficient's clinical forms are built for home health and hospice and kept current with fully embedded regulatory updates.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "cd-med-history", "label": "Automated medication history", "impact": "Manually reconciling medications is slow and raises the risk of errors.", "careficient": { "text": "Careficient automates medication history.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cd-photos", "label": "Photo attachments", "impact": "Without photo attachments, wound and condition changes are harder to document and track.", "careficient": { "text": "Careficient supports photo attachments in clinical documentation.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cd-carry-forward", "label": "Carry-forward with compliance controls", "impact": "Carry-forward without controls invites cloned notes, which are an audit red flag.", "careficient": { "text": "Careficient's carry-forward is governed by compliance controls and real-time compliance prompts.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "cd-templates", "label": "Fully configurable clinical templates", "impact": "Fixed templates force clinicians to work around the system instead of documenting the way care is delivered.", "careficient": { "text": "Careficient's clinical templates are customizable, with real-time compliance prompts that help clinicians document accurately.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "cd-physician-portal", "label": "Physician portal", "impact": "Without a physician portal, orders and signatures depend on fax and phone follow-up.", "careficient": { "text": "Careficient includes a physician portal.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cd-visit-notes", "label": "Clinical visit notes", "impact": "Slow visit notes reduce patient-facing time and drive late documentation.", "careficient": { "text": "Careficient's event-driven workflows reduce redundant tasks and make visit documentation faster and more efficient.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "cd-assessments", "label": "Assessments", "impact": "Assessment gaps ripple into care plans, quality measures, and reimbursement.", "careficient": { "text": "Careficient's assessments are built for home health and hospice and kept current with embedded regulatory updates.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "cd-med-interactions", "label": "Medication interaction alerts", "impact": "Without interaction alerts, medication risks rely on clinician memory alone.", "careficient": { "text": "Careficient provides medication interaction alerts.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "care-planning-orders-idt",
+      "title": "Care Planning, Orders & IDT/IDG",
+      "icon": "careplan",
+      "intro": "Whether care plans, orders, and interdisciplinary work drive what happens in the field.",
+      "items": [
+        { "id": "co-orders-driven", "label": "Orders-driven care plans (required to deliver compliant workflows)", "critical": true, "impact": "If orders don't drive the care plan, visits and documentation can drift out of compliance with physician orders.", "careficient": { "text": "Careficient drives care plans from orders, with guardrails that prevent out-of-compliance actions.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "co-dynamic-orders", "label": "Dynamic physician orders", "impact": "Static orders create manual tracking and delays when plans change.", "careficient": { "text": "Careficient supports dynamic physician orders.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "co-idt-prepop", "label": "IDT/IDG workflows with automatic pre-population", "impact": "Without pre-population, IDT/IDG preparation is a manual, time-consuming task.", "careficient": { "text": "Careficient's IDT/IDG workflows pre-populate automatically.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "co-idt-editing", "label": "IDT editing of goals and interventions", "impact": "If the team can't update goals and interventions in the meeting, changes are delayed or lost.", "careficient": { "text": "Careficient lets the IDT edit goals and interventions directly.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "co-idt-signature", "label": "Audit-proof IDT signature process", "impact": "Weak signature trails are a frequent audit finding.", "careficient": { "text": "Careficient's IDT signature process is backed by audit-ready documentation trails.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "co-bereavement", "label": "Bereavement workflows", "impact": "Without bereavement workflows, required follow-up with families is tracked outside the EMR.", "careficient": { "text": "Careficient includes bereavement workflows.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "co-interdisciplinary", "label": "Interdisciplinary workflows", "impact": "Disconnected disciplines mean duplicate work and gaps in coordination.", "careficient": { "text": "Careficient is a unified platform for every role, removing silos and duplication across disciplines.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "co-esign", "label": "E-signatures", "impact": "Paper signatures slow orders and create gaps in the record.", "careficient": { "text": "Careficient supports e-signatures.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "scheduling-evv-workforce",
+      "title": "Scheduling, EVV & Workforce",
+      "icon": "calendar",
+      "intro": "Getting the right clinician to the right patient at the right frequency, and proving the visit happened.",
+      "items": [
+        { "id": "se-frequency", "label": "Frequency-based scheduling tied to orders", "impact": "If schedules aren't tied to ordered frequencies, missed or extra visits go unnoticed.", "careficient": { "text": "Careficient ties frequency-based scheduling to orders.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "se-matching", "label": "Staff-to-patient matching", "impact": "Manual matching wastes scheduler time and windshield time.", "careficient": { "text": "Careficient supports staff-to-patient matching within its dynamic scheduling.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "se-gps", "label": "GPS mileage and time tracking", "impact": "Without GPS tracking, mileage and time are self-reported and hard to verify.", "careficient": { "text": "Careficient tracks GPS mileage and time.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "se-missed", "label": "Missed visit tracking", "impact": "Untracked missed visits become care gaps and compliance findings.", "careficient": { "text": "Careficient tracks missed visits.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "se-evv-builtin", "label": "EVV built into the system (not third party)", "critical": true, "impact": "Third-party EVV adds reconciliation between systems and puts state EVV compliance and payroll accuracy at risk.", "careficient": { "text": "Careficient's EVV is built in, not third party. Automated visit verification and visit tracking simplify payroll and help field staff focus on patient care.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "se-flexible", "label": "Flexible scheduling", "impact": "Rigid scheduling can't keep up with real-world changes in the field.", "careficient": { "text": "Careficient offers dynamic, optimized scheduling workflows.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "se-calendar", "label": "Calendar views", "impact": "Without clear calendar views, schedulers lose visibility across staff and patients.", "careficient": { "text": "Careficient provides calendar views for scheduling.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "billing-claims-rcm",
+      "title": "Billing, Claims & RCM",
+      "icon": "dollar",
+      "intro": "How cleanly care turns into cash: claims, payer rules, posting, and exceptions.",
+      "items": [
+        { "id": "bc-clearinghouse", "label": "Clearinghouse integration built in", "critical": true, "impact": "Without a built-in clearinghouse, claims leave your EMR for another system, which adds rejections, reconciliation, and delay.", "careficient": { "text": "Careficient's clearinghouse integration is built in, with integrated claims management and real-time claims tracking.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "bc-payer-rules", "label": "Payer rule enforcement engine", "critical": true, "impact": "Without payer rule enforcement, errors are found by the payer as denials instead of by your team before submission.", "careficient": { "text": "Careficient's built-in payer rule enforcement and automated workflow validation reduce errors and billing delays.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "bc-era", "label": "ERA auto-posting", "impact": "Manual remittance posting delays cash application and hides underpayments.", "careficient": { "text": "Careficient auto-posts electronic remittance advice (ERA).", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "bc-corrected", "label": "Corrected claims workflows", "impact": "Without a corrected-claims workflow, fixes are slow and hard to track.", "careficient": { "text": "Careficient includes corrected-claims workflows.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "bc-nightly", "label": "Nightly automatic claim submission", "impact": "Manual claim batching delays submission and slows cash flow.", "careficient": { "text": "Careficient submits claims automatically each night.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "bc-continuous-care", "label": "Continuous Care billing", "impact": "Billing Continuous Care manually is complex and error-prone.", "careficient": { "text": "Careficient supports Continuous Care billing.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "bc-verify", "label": "Ability to bill with controlled exceptions (a \"verify\" step)", "impact": "Without controlled exceptions, billing either stalls entirely or goes out unchecked.", "careficient": { "text": "Careficient supports billing with controlled exceptions through a verify step.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "bc-automated", "label": "Automated billing", "impact": "Manual billing ties up staff and slows reimbursement.", "careficient": { "text": "Careficient automates billing processes with built-in revenue cycle management tools.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "bc-alerts", "label": "Billing compliance alerts", "impact": "Without compliance alerts in billing, issues surface only after claims are denied.", "careficient": { "text": "Careficient's automated billing validation flags compliance issues before claims go out.", "status": "TODO-REVIEW", "evidence": "case-study" } }
+      ]
+    },
+    {
+      "id": "compliance-general",
+      "title": "Compliance (General)",
+      "icon": "badge",
+      "intro": "Whether your EMR actively enforces regulations or leaves compliance to manual review.",
+      "items": [
+        { "id": "cg-info-blocking", "label": "Information blocking compliance", "impact": "Information-blocking gaps create regulatory exposure under federal rules.", "careficient": { "text": "Careficient supports information blocking compliance.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cg-cop", "label": "CMS Conditions of Participation (CoP) enforcement", "critical": true, "impact": "If the EMR doesn't enforce CoPs, survey readiness depends entirely on manual review.", "careficient": { "text": "Careficient enforces CMS Conditions of Participation through fully embedded regulatory updates and guardrails that prevent out-of-compliance actions.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "cg-audit-export", "label": "Audit-ready chart exports", "impact": "Assembling charts by hand for audits and ADRs takes days.", "careficient": { "text": "Careficient's audit-ready documentation trails and built-in audit trails reduce manual compliance work.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "cg-alerts", "label": "Automated compliance alerts", "impact": "Without automated alerts, compliance problems are found late.", "careficient": { "text": "Careficient provides real-time compliance prompts and automated compliance checks.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "cg-noe-oasis-his", "label": "NOE, NOA, OASIS, and HIS support", "impact": "Gaps in required filings and assessments put reimbursement and quality reporting at risk.", "careficient": { "text": "Careficient supports NOE, NOA, OASIS, and HIS requirements with fully embedded regulatory updates.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    },
+    {
+      "id": "reporting-analytics",
+      "title": "Reporting & Analytics",
+      "icon": "chart",
+      "intro": "Whether leaders can see quality, compliance, and financial performance in time to act.",
+      "items": [
+        { "id": "ra-qapi", "label": "QAPI", "impact": "Without QAPI support, quality improvement programs depend on spreadsheets.", "careficient": { "text": "Careficient supports QAPI programs.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ra-builder", "label": "Custom report builder", "impact": "Without a report builder, every new question becomes a vendor request.", "careficient": { "text": "Careficient provides customizable reporting.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ra-scheduled", "label": "Scheduled reports", "impact": "Without scheduled reports, staff spend time pulling the same data repeatedly.", "careficient": { "text": "Careficient supports scheduled reports.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "ra-role-access", "label": "Role-based report access", "impact": "Without role-based access, reports either expose too much or reach too few.", "careficient": { "text": "Careficient's role-based workflows extend to report access.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ra-dashboards", "label": "Real-time dashboards", "impact": "Without real-time dashboards, problems are found at month-end instead of the same day.", "careficient": { "text": "Careficient provides real-time financial reporting and real-time financial insights.", "status": "TODO-REVIEW", "evidence": "case-study" } },
+        { "id": "ra-compliance", "label": "Compliance reporting", "impact": "Without compliance reporting, audit readiness is hard to measure.", "careficient": { "text": "Careficient's automated reporting reduces manual compliance work.", "status": "TODO-REVIEW", "evidence": "case-study" } }
+      ]
+    },
+    {
+      "id": "configuration-scalability",
+      "title": "Configuration & Scalability",
+      "icon": "sliders",
+      "intro": "Whether your EMR adapts to your agency, and keeps up as you grow.",
+      "items": [
+        { "id": "cs-admin", "label": "Admin-level configuration", "impact": "If admins can't configure the system, every change waits on the vendor.", "careficient": { "text": "Careficient provides admin-level configuration.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cs-fields", "label": "Custom fields", "impact": "Without custom fields, agency-specific data lives in side spreadsheets.", "careficient": { "text": "Careficient supports custom fields.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cs-rules", "label": "Custom rules", "impact": "Without custom rules, agency policies are enforced by memory instead of by the system.", "careficient": { "text": "Careficient supports custom rules.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "cs-multibranch", "label": "Multi-branch, multi-state scalability", "impact": "If the EMR can't scale across branches and states, growth adds administrative burden.", "careficient": { "text": "Careficient scales across branches and states, supporting 1,100+ agencies across 2,700+ locations nationwide.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "cs-release", "label": "Regular release cadence", "impact": "Infrequent releases leave you waiting on regulatory changes and fixes.", "careficient": { "text": "Careficient delivers continuous enhancements and fully embedded regulatory updates.", "status": "TODO-REVIEW", "evidence": "why-careficient" } }
+      ]
+    },
+    {
+      "id": "implementation-training-support",
+      "title": "Implementation, Training & Support",
+      "icon": "headset",
+      "intro": "The partnership behind the software: go-live, training, and the help you get afterward.",
+      "items": [
+        { "id": "it-pm", "label": "Dedicated project manager", "impact": "Without a dedicated project manager, implementations stall and accountability is unclear.", "careficient": { "text": "Careficient assigns a dedicated project manager to implementation.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "it-migration", "label": "Clear data migration expectations", "impact": "Unclear migration plans lead to missing history and surprises at go-live.", "careficient": { "text": "Careficient sets clear data migration expectations as part of an implementation methodology engineered for home health and hospice.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "it-role-training", "label": "Role-based training", "impact": "One-size-fits-all training leaves each role under-prepared.", "careficient": { "text": "Careficient provides role-based training.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "it-library", "label": "Recorded training library", "impact": "Without recorded training, onboarding new staff depends on whoever is available.", "careficient": { "text": "Careficient provides a recorded training library.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "it-optimization", "label": "Post-go-live optimization", "impact": "Without optimization after go-live, early workarounds become permanent.", "careficient": { "text": "Careficient supports post-go-live optimization with continuous enhancements.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "it-us-support", "label": "U.S.-based support", "impact": "Support that doesn't understand U.S. home health and hospice slows every resolution.", "careficient": { "text": "Careficient provides responsive U.S.-based support with a deep understanding of post-acute care.", "status": "TODO-REVIEW", "evidence": "why-careficient" } },
+        { "id": "it-dedicated-impl", "label": "Dedicated implementation team", "impact": "Without a dedicated implementation team, go-live competes with other priorities.", "careficient": { "text": "Careficient provides dedicated implementation using a methodology engineered specifically for home health and hospice.", "status": "TODO-REVIEW", "evidence": "why-careficient" } }
+      ]
+    },
+    {
+      "id": "hope",
+      "title": "HOPE (Hospice Only)",
+      "icon": "heartclock",
+      "hospiceOnly": true,
+      "intro": "The Hospice Outcomes & Patient Evaluation tool: timepoints, validation, and quality impact.",
+      "items": [
+        { "id": "hp-scheduling", "label": "HOPE-driven scheduling that auto-enforces CMS timepoints", "impact": "If HOPE timepoints aren't enforced by scheduling, missed windows affect quality reporting.", "careficient": { "text": "Careficient's HOPE-driven scheduling automatically enforces CMS timepoints.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "hp-sfv", "label": "Symptom follow-up visit (SFV) auto-notifications", "impact": "Without SFV notifications, required follow-up visits are easy to miss.", "careficient": { "text": "Careficient sends automatic symptom follow-up visit (SFV) notifications.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "hp-scrubber", "label": "HOPE scrubber (error validation)", "critical": true, "impact": "Without a HOPE scrubber, submission errors are found after the fact and can affect quality reporting.", "careficient": { "text": "Careficient includes a HOPE scrubber that validates records for errors before submission.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "hp-integrated", "label": "Integrated HOPE assessments", "impact": "HOPE assessments outside the clinical record mean duplicate entry.", "careficient": { "text": "Careficient integrates HOPE assessments into clinical documentation.", "status": "TODO-REVIEW", "evidence": "checklist-only" } },
+        { "id": "hp-trend", "label": "Ability to trend HOPE quality and compliance impacts", "impact": "Without trending, you can't see how HOPE performance is affecting quality outcomes.", "careficient": { "text": "Careficient trends HOPE quality and compliance impacts.", "status": "TODO-REVIEW", "evidence": "checklist-only" } }
+      ]
+    }
+  ],
+  "caseStudy": {
+    "agency": "Faith Home Health and Hospice",
+    "headline": "Optimizing Operations & Enhancing Patient Care with Careficient",
+    "about": "For over 9 years, Faith Home Health and Hospice has provided compassionate, high-quality care to patients in their homes across Kansas, Iowa, and Missouri.",
+    "intro": "Since adopting Careficient's all-in-one EMR, Faith Home Health and Hospice has achieved measurable improvements in efficiency, compliance, and financial performance.",
+    "person": { "name": "David J. Jones", "title": "Chief Executive Officer, Faith Home Health and Hospice", "photo": "/brand/david-j-jones.png" },
+    "quote": "Since 2016 Careficient has completely transformed the way we operate at Faith Home Health and Hospice. The intuitive workflows, compliance-driven features, and seamless integration have allowed us to streamline processes and focus on what matters most, delivering exceptional care to our patients.",
+    "stats": [
+      { "value": 32, "label": "Faster Documentation Completion", "detail": "Automated workflows reduced time spent on clinical documentation, increasing patient-facing time." },
+      { "value": 21, "label": "Fewer Claim Denials", "detail": "Built-in validation and automated payer rules improved billing accuracy and cash flow." },
+      { "value": 22, "label": "Faster Reimbursements", "detail": "Improved billing workflows and real-time claims tracking significantly reduced Days Sales Outstanding (DSO), accelerating cash flow across all payer types." },
+      { "value": 24, "label": "Regulatory Compliance", "detail": "Integrated revenue cycle management accelerated payments from Medicare, Medicaid, and private insurers.", "reviewNote": "TODO-REVIEW: in the PDF this description does not match the 'Regulatory Compliance' label. Confirm the intended copy." },
+      { "value": 13, "label": "Reduction in Admin Overhead", "detail": "Streamlined reporting and workflow automation reduced back-office workload." },
+      { "value": 22, "label": "Decrease in Late Documentation", "detail": "Automated reminders ensured clinicians completed documentation on time." },
+      { "value": 13, "label": "Faster Payroll Processing", "detail": "Automated visit tracking and EVV integration simplified payroll management." },
+      { "value": 13, "label": "Less Time Spent on Audits", "detail": "Built-in audit trails and automated reporting reduced manual compliance work." }
+    ],
+    "chart": {
+      "reviewNote": "TODO-REVIEW: the PDF chart on page 13 has no data labels. These values were read from the bar heights and should be confirmed by marketing.",
+      "series": [
+        { "metric": "Documentation Time", "before": 13, "after": 6 },
+        { "metric": "Claim Denials", "before": 22, "after": 9 },
+        { "metric": "Reimbursement Speed", "before": 16, "after": 29 },
+        { "metric": "Admin Workload", "before": 17, "after": 5 },
+        { "metric": "Compliance Audit Time", "before": 40, "after": 27 },
+        { "metric": "Faster Payroll", "before": 12, "after": 38 }
+      ]
+    }
+  },
+  "templates": {
+    "executiveSummary": "{agency} provides {programs} care from {locations} in {states}. Your current EMR scored {total} out of 50, which puts it in the \"{band}\" range. The biggest opportunities are in {weakest}. {frustrationLine}Careficient is built exclusively for home health and hospice, and the gaps below show exactly where it would change your day-to-day operations.",
+    "frustrationLine": "You told us {frustrations} are top concerns, and the results point to the same areas. ",
+    "fitIntro": "These are the categories where switching to Careficient would make the biggest difference for your agency.",
+    "unsureNote": "You weren't sure about these items. Ask your current vendor to confirm them in writing."
+  }
+}
