@@ -1,0 +1,4501 @@
+{
+ "site": "https://careficient.com/",
+ "brand": "Careficient",
+ "generatedAt": "2026-10-12T16:08:07.877Z",
+ "durationMs": 16691,
+ "scores": {
+  "seo": 88,
+  "aeo": 54,
+  "geo": 85,
+  "overall": 76
+ },
+ "totals": {
+  "pages": 15,
+  "pass": 289,
+  "warn": 74,
+  "fail": 54
+ },
+ "siteChecks": [
+  {
+   "category": "seo",
+   "id": "robots-txt",
+   "label": "robots.txt reachable",
+   "status": "pass",
+   "detail": "Found",
+   "fix": null,
+   "weight": 1
+  },
+  {
+   "category": "seo",
+   "id": "sitemap",
+   "label": "XML sitemap",
+   "status": "pass",
+   "detail": "https://www.careficient.com/sitemap_index.xml (117 URLs)",
+   "fix": null,
+   "weight": 3
+  },
+  {
+   "category": "seo",
+   "id": "https-redirect",
+   "label": "HTTP permanently redirects to HTTPS",
+   "status": "pass",
+   "detail": "301 → https://careficient.com/",
+   "fix": null,
+   "weight": 2
+  },
+  {
+   "category": "seo",
+   "id": "soft-404",
+   "label": "Missing pages return 404",
+   "status": "pass",
+   "detail": "Random URL returned 404",
+   "fix": null,
+   "weight": 1
+  },
+  {
+   "category": "geo",
+   "id": "ai-crawlers-robots",
+   "label": "AI crawlers allowed in robots.txt",
+   "status": "pass",
+   "detail": "All 12 AI/answer-engine bots allowed",
+   "fix": null,
+   "weight": 3
+  },
+  {
+   "category": "geo",
+   "id": "ai-crawler-firewall",
+   "label": "AI bots not blocked by firewall/CDN",
+   "status": "pass",
+   "detail": "GPTBot user-agent got 200, 361,102 bytes",
+   "fix": null,
+   "weight": 3
+  },
+  {
+   "category": "geo",
+   "id": "llms-txt",
+   "label": "llms.txt published",
+   "status": "warn",
+   "detail": "Status 404",
+   "fix": "Publish /llms.txt — a markdown summary of who you are and links to your key pages for LLMs.",
+   "weight": 1
+  },
+  {
+   "category": "aeo",
+   "id": "faq-coverage",
+   "label": "Site has FAQ / Q&A content",
+   "status": "fail",
+   "detail": "0/15 pages with Q&A schema",
+   "fix": "Build FAQ sections for core services (home health, hospice, billing, OASIS…) with FAQPage schema.",
+   "weight": 2
+  },
+  {
+   "category": "geo",
+   "id": "home-organization",
+   "label": "Homepage Organization schema",
+   "status": "pass",
+   "detail": "Present",
+   "fix": null,
+   "weight": 2
+  },
+  {
+   "category": "aeo",
+   "id": "site-reachable",
+   "label": "Homepage reachable",
+   "status": "pass",
+   "detail": "Status 200",
+   "fix": null,
+   "weight": 3
+  }
+ ],
+ "issues": [
+  {
+   "category": "aeo",
+   "id": "question-headings",
+   "label": "Question-style headings",
+   "status": "fail",
+   "detail": "0 question headings",
+   "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+   "weight": 3,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/why/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 9,
+   "warns": 3,
+   "impact": 72
+  },
+  {
+   "category": "aeo",
+   "id": "concise-answers",
+   "label": "Concise answers under questions (15–70 words)",
+   "status": "fail",
+   "detail": "0/0 questions followed by a snippet-length answer",
+   "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+   "weight": 3,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 11,
+   "warns": 0,
+   "impact": 66
+  },
+  {
+   "category": "aeo",
+   "id": "qa-schema",
+   "label": "FAQ / HowTo / QA schema",
+   "status": "fail",
+   "detail": "None",
+   "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 5,
+   "warns": 9,
+   "impact": 56
+  },
+  {
+   "category": "geo",
+   "id": "statistics",
+   "label": "Specific facts & statistics",
+   "status": "fail",
+   "detail": "0 quantified claims",
+   "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 14,
+   "warns": 0,
+   "impact": 56
+  },
+  {
+   "category": "seo",
+   "id": "response-time",
+   "label": "Fast server response",
+   "status": "fail",
+   "detail": "2849 ms to full HTML",
+   "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/services/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 1,
+   "warns": 11,
+   "impact": 48
+  },
+  {
+   "category": "seo",
+   "id": "h1",
+   "label": "Exactly one H1",
+   "status": "fail",
+   "detail": "No H1 found",
+   "fix": "Use a single H1 that states the page topic.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/why/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 11,
+   "warns": 0,
+   "impact": 44
+  },
+  {
+   "category": "aeo",
+   "id": "faq-coverage",
+   "label": "Site has FAQ / Q&A content",
+   "status": "fail",
+   "detail": "0/15 pages with Q&A schema",
+   "fix": "Build FAQ sections for core services (home health, hospice, billing, OASIS…) with FAQPage schema.",
+   "weight": 2,
+   "scope": "site",
+   "pages": [],
+   "impact": 30
+  },
+  {
+   "category": "seo",
+   "id": "meta-description",
+   "label": "Meta description 70–160 chars",
+   "status": "fail",
+   "detail": "Missing meta description",
+   "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/why/",
+    "https://careficient.com/education"
+   ],
+   "fails": 1,
+   "warns": 5,
+   "impact": 24
+  },
+  {
+   "category": "seo",
+   "id": "title",
+   "label": "Title tag 30–60 chars",
+   "status": "warn",
+   "detail": "\"EMR for Hospice - Careficient\" (29 chars)",
+   "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+   "weight": 3,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/about/",
+    "https://careficient.com/support"
+   ],
+   "fails": 0,
+   "warns": 7,
+   "impact": 21
+  },
+  {
+   "category": "seo",
+   "id": "open-graph",
+   "label": "Open Graph tags",
+   "status": "warn",
+   "detail": "Missing og:image",
+   "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+   "weight": 1,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 0,
+   "warns": 14,
+   "impact": 14
+  },
+  {
+   "category": "aeo",
+   "id": "lead-summary",
+   "label": "Clear lead summary paragraph",
+   "status": "warn",
+   "detail": "First paragraph 11 words",
+   "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+   "weight": 1,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/solutions/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 0,
+   "warns": 14,
+   "impact": 14
+  },
+  {
+   "category": "geo",
+   "id": "freshness",
+   "label": "Freshness date signal",
+   "status": "warn",
+   "detail": "Updated 417 days ago",
+   "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+   "weight": 1,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/why/",
+    "https://careficient.com/services/",
+    "https://careficient.com/about/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 0,
+   "warns": 10,
+   "impact": 10
+  },
+  {
+   "category": "geo",
+   "id": "llms-txt",
+   "label": "llms.txt published",
+   "status": "warn",
+   "detail": "Status 404",
+   "fix": "Publish /llms.txt — a markdown summary of who you are and links to your key pages for LLMs.",
+   "weight": 1,
+   "scope": "site",
+   "pages": [],
+   "impact": 7.5
+  },
+  {
+   "category": "seo",
+   "id": "http-status",
+   "label": "HTTP 200 response",
+   "status": "fail",
+   "detail": "Status 403",
+   "fix": "Fix or remove this URL from the sitemap.",
+   "weight": 3,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/imunify-bot-check"
+   ],
+   "fails": 1,
+   "warns": 0,
+   "impact": 6
+  }
+ ],
+ "pages": [
+  {
+   "url": "https://careficient.com/",
+   "status": 200,
+   "timeMs": 2849,
+   "bytes": 361102,
+   "title": "Leading EMR Solutions for Healthcare Agencies - Careficient",
+   "words": 842,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 84,
+    "aeo": 42,
+    "geo": 82
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "fail",
+     "detail": "2849 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"Leading EMR Solutions for Healthcare Agencies - Careficient\" (59 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "154 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "106/106 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "115 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "842 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "842 words in server HTML · text/HTML ratio 1.6%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "pass",
+     "detail": "Updated 353 days ago",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "46 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 21×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/emr-transition-promo/",
+   "status": 200,
+   "timeMs": 1339,
+   "bytes": 118685,
+   "title": "End-of-Year EMR Transition Promo - Careficient",
+   "words": 456,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 46,
+    "geo": 82
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1339 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"End-of-Year EMR Transition Promo - Careficient\" (46 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "fail",
+     "detail": "Missing meta description",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Switching EMRs doesn’t have to be hard.\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "5 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/emr-transition-promo/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "6/6 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:description, og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "46 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "456 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "warn",
+     "detail": "1 question headings e.g. \"Ready to see what switching could look like?\"",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/1 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "fail",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "9 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "456 words in server HTML · text/HTML ratio 2.5%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "pass",
+     "detail": "Updated 4 days ago",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "6 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 10×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/emr-home-health",
+   "status": 200,
+   "timeMs": 1810,
+   "bytes": 224106,
+   "title": "EMR for Home Health - Careficient",
+   "words": 545,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 84,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1810 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"EMR for Home Health - Careficient\" (33 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "warn",
+     "detail": "193 chars",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/emr-home-health/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "42/42 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "92 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "545 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "545 words in server HTML · text/HTML ratio 1.7%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 417 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 13×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/emr-hospice",
+   "status": 200,
+   "timeMs": 1837,
+   "bytes": 223404,
+   "title": "EMR for Hospice - Careficient",
+   "words": 547,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 79,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1837 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"EMR for Hospice - Careficient\" (29 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "warn",
+     "detail": "192 chars",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/emr-hospice/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "42/42 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "92 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "547 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "547 words in server HTML · text/HTML ratio 1.7%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 417 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 12×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/emr-home-care",
+   "status": 200,
+   "timeMs": 1899,
+   "bytes": 223926,
+   "title": "EMR for Home Care - Careficient",
+   "words": 518,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 84,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1899 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"EMR for Home Care - Careficient\" (31 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "warn",
+     "detail": "186 chars",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/emr-home-care/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "42/42 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "92 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "518 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "518 words in server HTML · text/HTML ratio 1.6%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 417 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 12×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/emr-palliative",
+   "status": 200,
+   "timeMs": 1560,
+   "bytes": 246130,
+   "title": "EMR for Palliative - Careficient",
+   "words": 824,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 46,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1560 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"EMR for Palliative - Careficient\" (32 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "123 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/emr-palliative/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "44/44 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "97 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "824 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "warn",
+     "detail": "1 question headings e.g. \"Why Choose Careficient EMR?\"",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/1 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "fail",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "21 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "824 words in server HTML · text/HTML ratio 2.4%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 685 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 16×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/about",
+   "status": 200,
+   "timeMs": 601,
+   "bytes": 242939,
+   "title": "About - Careficient",
+   "words": 1075,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 86,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "pass",
+     "detail": "601 ms to full HTML",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"About - Careficient\" (19 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "122 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/about/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "38/38 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "89 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "1075 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "1075 words in server HTML · text/HTML ratio 3.0%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 773 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 14×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/solutions",
+   "status": 200,
+   "timeMs": 1707,
+   "bytes": 296124,
+   "title": "Our Solution - Careficient",
+   "words": 1575,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 89,
+    "aeo": 81,
+    "geo": 82
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1707 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Our Solution - Careficient\" (26 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "134 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Frequently Asked Questions About Home Health & Hospice EMR Software\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/solutions/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "78/78 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "112 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "1575 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "pass",
+     "detail": "8 question headings e.g. \"What is Careficient and who is it built for?\"",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "pass",
+     "detail": "7/8 questions followed by a snippet-length answer",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "fail",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "24 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "1575 words in server HTML · text/HTML ratio 3.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "pass",
+     "detail": "Updated 136 days ago",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "41 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 33×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/why/",
+   "status": 200,
+   "timeMs": 1492,
+   "bytes": 212786,
+   "title": "Why Us - Careficient",
+   "words": 546,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 79,
+    "aeo": 69,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1492 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Why Us - Careficient\" (20 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "warn",
+     "detail": "208 chars",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/why/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "30/30 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "88 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "546 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "warn",
+     "detail": "1 question headings e.g. \"Why Careficient\"",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "pass",
+     "detail": "1/1 questions followed by a snippet-length answer",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "fail",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "546 words in server HTML · text/HTML ratio 1.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 417 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "20 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 14×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/solutions/",
+   "status": 200,
+   "timeMs": 1743,
+   "bytes": 296303,
+   "title": "Our Solution - Careficient",
+   "words": 1575,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 89,
+    "aeo": 81,
+    "geo": 82
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1743 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Our Solution - Careficient\" (26 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "134 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Frequently Asked Questions About Home Health & Hospice EMR Software\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/solutions/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "78/78 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "112 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "1575 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "pass",
+     "detail": "8 question headings e.g. \"What is Careficient and who is it built for?\"",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "pass",
+     "detail": "7/8 questions followed by a snippet-length answer",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "fail",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "24 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "1575 words in server HTML · text/HTML ratio 3.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "pass",
+     "detail": "Updated 136 days ago",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "41 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 33×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/services/",
+   "status": 200,
+   "timeMs": 1629,
+   "bytes": 236147,
+   "title": "Services | Revenue Cycle Management - Careficient",
+   "words": 570,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1629 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"Services | Revenue Cycle Management - Careficient\" (49 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "139 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/services/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "32/32 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "88 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "570 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "570 words in server HTML · text/HTML ratio 1.6%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 797 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "20 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 12×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/about/",
+   "status": 200,
+   "timeMs": 538,
+   "bytes": 242939,
+   "title": "About - Careficient",
+   "words": 1075,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 86,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "pass",
+     "detail": "538 ms to full HTML",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"About - Careficient\" (19 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "122 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/about/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "38/38 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "89 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "1075 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "1075 words in server HTML · text/HTML ratio 3.0%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 773 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "23 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 14×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/education",
+   "status": 200,
+   "timeMs": 1765,
+   "bytes": 385479,
+   "title": "Resources - Education - Careficient",
+   "words": 694,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 84,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1765 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"Resources - Education - Careficient\" (35 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "warn",
+     "detail": "205 chars",
+     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/education/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "70/70 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "154 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "694 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "694 words in server HTML · text/HTML ratio 1.2%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 417 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 14×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/support",
+   "status": 200,
+   "timeMs": 1516,
+   "bytes": 214776,
+   "title": "Contact - Careficient",
+   "words": 559,
+   "schemaTypes": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "ImageObject"
+   ],
+   "scores": {
+    "seo": 82,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1516 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Contact - Careficient\" (21 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "125 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "2 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/support/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "26/26 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "warn",
+     "detail": "Missing og:image",
+     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "88 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "559 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 1 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "559 words in server HTML · text/HTML ratio 1.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 797 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 20×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/imunify-bot-check",
+   "status": 403,
+   "timeMs": 113,
+   "bytes": 11,
+   "title": "",
+   "words": 0,
+   "schemaTypes": [],
+   "scores": {
+    "seo": 0,
+    "aeo": null,
+    "geo": null
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "fail",
+     "detail": "Status 403",
+     "fix": "Fix or remove this URL from the sitemap.",
+     "weight": 3
+    }
+   ]
+  }
+ ]
+}
