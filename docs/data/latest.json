@@ -1,19 +1,19 @@
 {
  "site": "https://careficient.com/",
  "brand": "Careficient",
- "generatedAt": "2026-10-12T16:32:03.642Z",
- "durationMs": 7413,
+ "generatedAt": "2026-10-12T17:31:57.292Z",
+ "durationMs": 14865,
  "scores": {
-  "seo": 89,
+  "seo": 88,
   "aeo": 54,
   "geo": 85,
   "overall": 76
  },
  "totals": {
   "pages": 15,
-  "pass": 301,
-  "warn": 63,
-  "fail": 53
+  "pass": 291,
+  "warn": 72,
+  "fail": 54
  },
  "siteChecks": [
   {
@@ -30,7 +30,7 @@
    "id": "sitemap",
    "label": "XML sitemap",
    "status": "pass",
-   "detail": "https://www.careficient.com/sitemap_index.xml (117 URLs)",
+   "detail": "https://www.careficient.com/sitemap_index.xml (104 URLs)",
    "fix": null,
    "weight": 3
   },
@@ -66,7 +66,7 @@
    "id": "ai-crawler-firewall",
    "label": "AI bots not blocked by firewall/CDN",
    "status": "pass",
-   "detail": "GPTBot user-agent got 200, 361,102 bytes",
+   "detail": "GPTBot user-agent got 200, 361,395 bytes",
    "fix": null,
    "weight": 3
   },
@@ -221,6 +221,33 @@
   },
   {
    "category": "seo",
+   "id": "response-time",
+   "label": "Fast server response",
+   "status": "fail",
+   "detail": "1133 ms to full HTML",
+   "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+   "weight": 2,
+   "scope": "page",
+   "pages": [
+    "https://careficient.com/",
+    "https://careficient.com/emr-transition-promo/",
+    "https://careficient.com/emr-home-health",
+    "https://careficient.com/emr-hospice",
+    "https://careficient.com/emr-home-care",
+    "https://careficient.com/emr-palliative",
+    "https://careficient.com/about",
+    "https://careficient.com/solutions",
+    "https://careficient.com/why/",
+    "https://careficient.com/services/",
+    "https://careficient.com/education",
+    "https://careficient.com/support"
+   ],
+   "fails": 2,
+   "warns": 10,
+   "impact": 48
+  },
+  {
+   "category": "seo",
    "id": "h1",
    "label": "Exactly one H1",
    "status": "fail",
@@ -231,7 +258,6 @@
    "pages": [
     "https://careficient.com/",
     "https://careficient.com/emr-home-health",
-    "https://careficient.com/emr-hospice",
     "https://careficient.com/emr-home-care",
     "https://careficient.com/emr-palliative",
     "https://careficient.com/about",
@@ -241,9 +267,9 @@
     "https://careficient.com/education",
     "https://careficient.com/support"
    ],
-   "fails": 11,
+   "fails": 10,
    "warns": 0,
-   "impact": 44
+   "impact": 40
   },
   {
    "category": "aeo",
@@ -369,7 +395,6 @@
    "scope": "page",
    "pages": [
     "https://careficient.com/emr-home-health",
-    "https://careficient.com/emr-hospice",
     "https://careficient.com/emr-home-care",
     "https://careficient.com/emr-palliative",
     "https://careficient.com/about",
@@ -380,8 +405,8 @@
     "https://careficient.com/support"
    ],
    "fails": 0,
-   "warns": 10,
-   "impact": 10
+   "warns": 9,
+   "impact": 9
   },
   {
    "category": "geo",
@@ -416,8 +441,8 @@
   {
    "url": "https://careficient.com/",
    "status": 200,
-   "timeMs": 678,
-   "bytes": 361102,
+   "timeMs": 1133,
+   "bytes": 361395,
    "title": "Leading EMR Solutions for Healthcare Agencies - Careficient",
    "words": 842,
    "schemaTypes": [
@@ -433,7 +458,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 91,
+    "seo": 88,
     "aeo": 42,
     "geo": 82
    },
@@ -451,9 +476,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "678 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1133 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -704,8 +729,8 @@
   {
    "url": "https://careficient.com/emr-transition-promo/",
    "status": 200,
-   "timeMs": 103,
-   "bytes": 118685,
+   "timeMs": 1481,
+   "bytes": 118575,
    "title": "End-of-Year EMR Transition Promo - Careficient",
    "words": 456,
    "schemaTypes": [
@@ -721,7 +746,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 91,
+    "seo": 88,
     "aeo": 46,
     "geo": 82
    },
@@ -739,9 +764,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "103 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1481 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -992,8 +1017,8 @@
   {
    "url": "https://careficient.com/emr-home-health",
    "status": 200,
-   "timeMs": 278,
-   "bytes": 224106,
+   "timeMs": 2013,
+   "bytes": 224214,
    "title": "EMR for Home Health - Careficient",
    "words": 545,
    "schemaTypes": [
@@ -1009,7 +1034,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 88,
+    "seo": 80,
     "aeo": 42,
     "geo": 77
    },
@@ -1027,9 +1052,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "278 ms to full HTML",
-     "fix": null,
+     "status": "fail",
+     "detail": "2013 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1280,8 +1305,8 @@
   {
    "url": "https://careficient.com/emr-hospice",
    "status": 200,
-   "timeMs": 545,
-   "bytes": 223404,
+   "timeMs": 1994,
+   "bytes": 223417,
    "title": "EMR for Hospice - Careficient",
    "words": 547,
    "schemaTypes": [
@@ -1297,9 +1322,9 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 82,
+    "seo": 86,
     "aeo": 42,
-    "geo": 77
+    "geo": 82
    },
    "checks": [
     {
@@ -1315,9 +1340,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "545 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1994 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1342,9 +1367,9 @@
      "category": "seo",
      "id": "h1",
      "label": "Exactly one H1",
-     "status": "fail",
-     "detail": "No H1 found",
-     "fix": "Use a single H1 that states the page topic.",
+     "status": "pass",
+     "detail": "1 H1: \"Careficient EMR for Hospice\"",
+     "fix": null,
      "weight": 2
     },
     {
@@ -1531,9 +1556,9 @@
      "category": "geo",
      "id": "freshness",
      "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 417 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "status": "pass",
+     "detail": "Updated 0 days ago",
+     "fix": null,
      "weight": 1
     },
     {
@@ -1568,8 +1593,8 @@
   {
    "url": "https://careficient.com/emr-home-care",
    "status": 200,
-   "timeMs": 368,
-   "bytes": 223926,
+   "timeMs": 2000,
+   "bytes": 223964,
    "title": "EMR for Home Care - Careficient",
    "words": 518,
    "schemaTypes": [
@@ -1585,7 +1610,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 88,
+    "seo": 80,
     "aeo": 42,
     "geo": 77
    },
@@ -1603,9 +1628,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "368 ms to full HTML",
-     "fix": null,
+     "status": "fail",
+     "detail": "2000 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1856,8 +1881,8 @@
   {
    "url": "https://careficient.com/emr-palliative",
    "status": 200,
-   "timeMs": 107,
-   "bytes": 246130,
+   "timeMs": 1697,
+   "bytes": 245993,
    "title": "EMR for Palliative - Careficient",
    "words": 824,
    "schemaTypes": [
@@ -1873,7 +1898,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 91,
+    "seo": 88,
     "aeo": 46,
     "geo": 77
    },
@@ -1891,9 +1916,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "107 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1697 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2144,8 +2169,8 @@
   {
    "url": "https://careficient.com/about",
    "status": 200,
-   "timeMs": 336,
-   "bytes": 242939,
+   "timeMs": 1687,
+   "bytes": 242835,
    "title": "About - Careficient",
    "words": 1075,
    "schemaTypes": [
@@ -2161,7 +2186,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 82,
     "aeo": 42,
     "geo": 77
    },
@@ -2179,9 +2204,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "336 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1687 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2432,8 +2457,8 @@
   {
    "url": "https://careficient.com/solutions",
    "status": 200,
-   "timeMs": 375,
-   "bytes": 296303,
+   "timeMs": 1756,
+   "bytes": 296302,
    "title": "Our Solution - Careficient",
    "words": 1575,
    "schemaTypes": [
@@ -2449,7 +2474,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 93,
+    "seo": 89,
     "aeo": 81,
     "geo": 82
    },
@@ -2467,9 +2492,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "375 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1756 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2720,8 +2745,8 @@
   {
    "url": "https://careficient.com/why/",
    "status": 200,
-   "timeMs": 103,
-   "bytes": 212786,
+   "timeMs": 1623,
+   "bytes": 212655,
    "title": "Why Us - Careficient",
    "words": 546,
    "schemaTypes": [
@@ -2737,7 +2762,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 82,
+    "seo": 79,
     "aeo": 69,
     "geo": 77
    },
@@ -2755,9 +2780,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "103 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1623 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3008,8 +3033,8 @@
   {
    "url": "https://careficient.com/solutions/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 296303,
+   "timeMs": 609,
+   "bytes": 296302,
    "title": "Our Solution - Careficient",
    "words": 1575,
    "schemaTypes": [
@@ -3044,7 +3069,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "111 ms to full HTML",
+     "detail": "609 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -3296,8 +3321,8 @@
   {
    "url": "https://careficient.com/services/",
    "status": 200,
-   "timeMs": 119,
-   "bytes": 236147,
+   "timeMs": 1746,
+   "bytes": 236182,
    "title": "Services | Revenue Cycle Management - Careficient",
    "words": 570,
    "schemaTypes": [
@@ -3313,7 +3338,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 91,
+    "seo": 88,
     "aeo": 42,
     "geo": 77
    },
@@ -3331,9 +3356,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "119 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1746 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3584,8 +3609,8 @@
   {
    "url": "https://careficient.com/about/",
    "status": 200,
-   "timeMs": 117,
-   "bytes": 242939,
+   "timeMs": 630,
+   "bytes": 242835,
    "title": "About - Careficient",
    "words": 1075,
    "schemaTypes": [
@@ -3620,7 +3645,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "117 ms to full HTML",
+     "detail": "630 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -3872,8 +3897,8 @@
   {
    "url": "https://careficient.com/education",
    "status": 200,
-   "timeMs": 114,
-   "bytes": 385479,
+   "timeMs": 1872,
+   "bytes": 385563,
    "title": "Resources - Education - Careficient",
    "words": 694,
    "schemaTypes": [
@@ -3889,7 +3914,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 88,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -3907,9 +3932,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "114 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1872 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -4160,8 +4185,8 @@
   {
    "url": "https://careficient.com/support",
    "status": 200,
-   "timeMs": 103,
-   "bytes": 214776,
+   "timeMs": 1757,
+   "bytes": 215071,
    "title": "Contact - Careficient",
    "words": 559,
    "schemaTypes": [
@@ -4177,7 +4202,7 @@
     "ImageObject"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 82,
     "aeo": 42,
     "geo": 77
    },
@@ -4195,9 +4220,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "103 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1757 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -4448,7 +4473,7 @@
   {
    "url": "https://careficient.com/imunify-bot-check",
    "status": 403,
-   "timeMs": 118,
+   "timeMs": 132,
    "bytes": 11,
    "title": "",
    "words": 0,
