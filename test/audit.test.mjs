@@ -69,3 +69,9 @@ test('unreachable site still produces a report', async () => {
   assert.equal(r.siteChecks.find((c) => c.id === 'site-reachable').status, 'fail');
   assert.ok(r.scores.overall < 30);
 });
+
+test('www and apex hosts count as the same site', async () => {
+  const { sameSite } = await import('../audit/html.mjs');
+  assert.ok(sameSite('www.careficient.com', 'careficient.com'));
+  assert.ok(!sameSite('cms.gov', 'careficient.com'));
+});
