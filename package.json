@@ -1,0 +1,13 @@
+{
+  "name": "careficient-site-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "24/7 SEO, AEO and GEO audit dashboard for careficient.com",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "audit": "node audit/run.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
