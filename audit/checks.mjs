@@ -1,5 +1,5 @@
 import {
-  findTags, findElements, stripTags, visibleText, metaContent, jsonLd, wordCount, removeNonContent,
+  findTags, findElements, sameSite, stripTags, visibleText, metaContent, jsonLd, wordCount, removeNonContent,
 } from './html.mjs';
 
 // Crawlers used by AI answer engines / LLMs. Blocking them hides the site from
@@ -65,7 +65,7 @@ export function auditPage({ url, status, timeMs, headers, html, brand }) {
   let canonDetail = 'No canonical link';
   if (canonical?.href) {
     const abs = new URL(canonical.href, url);
-    canonStatus = abs.host === host ? 'pass' : 'warn';
+    canonStatus = sameSite(abs.host, host) ? 'pass' : 'warn';
     canonDetail = abs.href;
   }
   S('canonical', 'Canonical URL set', canonStatus, canonDetail, 'Add <link rel="canonical"> pointing to the preferred URL to avoid duplicate content.', 2);
@@ -89,7 +89,7 @@ export function auditPage({ url, status, timeMs, headers, html, brand }) {
     og.length ? `Missing ${og.join(', ')}` : 'og:title, og:description, og:image present', 'Add Open Graph tags so shares (and some AI previews) render rich cards.', 1);
 
   const internal = anchors.filter((a) => {
-    try { return a.href && new URL(a.href, url).host === host; } catch { return false; }
+    try { return a.href && sameSite(new URL(a.href, url).host, host); } catch { return false; }
   }).length;
   S('internal-links', 'Internal links', internal >= 5 ? 'pass' : internal >= 2 ? 'warn' : 'fail', `${internal} internal links`,
     'Link to related pages to distribute authority and help crawlers discover content.', 1);
@@ -168,7 +168,7 @@ export function auditPage({ url, status, timeMs, headers, html, brand }) {
     'Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.', 2);
 
   const external = anchors.filter((a) => {
-    try { const u = new URL(a.href, url); return /^https?:$/.test(u.protocol) && u.host !== host; } catch { return false; }
+    try { const u = new URL(a.href, url); return /^https?:$/.test(u.protocol) && !sameSite(u.host, host); } catch { return false; }
   }).length;
   G('citations', 'Cites external sources', external >= 2 ? 'pass' : external === 1 ? 'warn' : 'fail', `${external} outbound links`,
     'Cite authoritative sources (CMS, regulations, studies) — cited content is cited back.', 1);

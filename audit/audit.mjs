@@ -1,5 +1,5 @@
 import { auditPage, parseRobots, botBlocked, AI_BOTS, check } from './checks.mjs';
-import { findTags } from './html.mjs';
+import { findTags, sameSite } from './html.mjs';
 
 const UA = 'Mozilla/5.0 (compatible; CareficientSiteAudit/1.0; +https://github.com/domyarborough-cell/Claude-House)';
 const GPTBOT_UA = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)';
@@ -107,10 +107,13 @@ export async function runAudit({ site, maxPages = 25, brand = 'Careficient', con
     'Publish /llms.txt — a markdown summary of who you are and links to your key pages for LLMs.', 1);
 
   // --- Choose pages to crawl
-  let pageUrls = sm.urls.filter((u) => { try { return new URL(u).host === new URL(origin).host; } catch { return false; } });
+  const originHost = new URL(origin).host;
+  // Sitemaps often list www.* while the site serves the apex (or vice versa): treat both as this site.
+  const onSite = (u) => { try { const x = new URL(u); if (!sameSite(x.host, originHost)) return null; x.host = originHost; x.hash = ''; return x.href; } catch { return null; } };
+  let pageUrls = sm.urls.map(onSite).filter(Boolean);
   if (!pageUrls.length && home.ok) {
-    pageUrls = findTags(home.body, 'a').map((a) => { try { return new URL(a.href, site).href.split('#')[0]; } catch { return null; } })
-      .filter((u) => u && new URL(u).host === new URL(origin).host && !/\.(pdf|jpe?g|png|gif|svg|webp|zip)$/i.test(u));
+    pageUrls = findTags(home.body, 'a').map((a) => { try { return onSite(new URL(a.href, site).href); } catch { return null; } })
+      .filter((u) => u && !/\.(pdf|jpe?g|png|gif|svg|webp|zip)$/i.test(u));
   }
   pageUrls = [...new Set([site, ...pageUrls])].slice(0, maxPages);
   log(`Auditing ${pageUrls.length} pages`);

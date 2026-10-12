@@ -92,3 +92,9 @@ export function jsonLd(html) {
 export function wordCount(text) {
   return (text.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) || []).length;
 }
+
+/** Hosts match ignoring a leading "www." (careficient.com == www.careficient.com). */
+export function sameSite(a, b) {
+  const h = (x) => x.replace(/^www\./i, '').toLowerCase();
+  return h(a) === h(b);
+}
