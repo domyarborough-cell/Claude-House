@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careficient Search Audit</title>
+<meta name="description" content="Live SEO, AEO and GEO audit dashboard for careficient.com — scores, trends and prioritized fixes.">
+<meta name="robots" content="noindex">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f6f4; --surface-1: #fcfcfb; --surface-2: #f0efec; --border: #e2e1dc;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #77766f;
+  --accent: #2a78d6; --grid: #e7e6e1;
+  --seo: #2a78d6; --aeo: #eb6834; --geo: #1baf7a;
+  --good: #0ca30c; --warning: #fab219; --critical: #d03b3b;
+  --good-ink: #006300; --warn-ink: #8a5a00; --crit-ink: #b02a2a;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface-1: #1a1a19; --surface-2: #232321; --border: #2f2f2c;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #94938a;
+    --accent: #3987e5; --grid: #2c2c2a;
+    --seo: #3987e5; --aeo: #d95926; --geo: #199e70;
+    --good-ink: #5fd35f; --warn-ink: #fab219; --crit-ink: #f07a7a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface-1: #1a1a19; --surface-2: #232321; --border: #2f2f2c;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #94938a;
+  --accent: #3987e5; --grid: #2c2c2a;
+  --seo: #3987e5; --aeo: #d95926; --geo: #199e70;
+  --good-ink: #5fd35f; --warn-ink: #fab219; --crit-ink: #f07a7a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text-primary); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 16px; margin: 0 0 12px; }
+.sub { color: var(--text-secondary); font-size: 14px; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-secondary); font-size: 13px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
+.dot.stale { background: var(--warning); }
+.dot.pulse { animation: pulse 2s infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+button, .btn { font: inherit; font-size: 14px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); padding: 7px 14px; border-radius: 8px; cursor: pointer; text-decoration: none; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button:disabled { opacity: .6; cursor: progress; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.grid { display: grid; gap: 16px; }
+.scores { grid-template-columns: 1.2fr repeat(3, 1fr); margin-bottom: 16px; }
+@media (max-width: 860px) { .scores { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .scores { grid-template-columns: 1fr; } }
+.tile .label { font-size: 13px; color: var(--text-secondary); display: flex; align-items: center; gap: 8px; }
+.tile .label i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.tile .num { font-size: 44px; font-weight: 650; letter-spacing: -0.03em; line-height: 1.1; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
+.tile.hero .num { font-size: 64px; }
+.tile .delta { font-size: 13px; color: var(--text-muted); }
+.delta.up { color: var(--good-ink); } .delta.down { color: var(--crit-ink); }
+.meter { height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; margin-top: 10px; }
+.meter > span { display: block; height: 100%; border-radius: 3px; }
+.tile .blurb { font-size: 12.5px; color: var(--text-muted); margin-top: 8px; }
+.counts { display: flex; gap: 14px; font-size: 13px; color: var(--text-secondary); margin-top: 10px; flex-wrap: wrap; }
+.chart-card { margin-bottom: 16px; }
+.legend { display: flex; gap: 16px; font-size: 13px; color: var(--text-secondary); flex-wrap: wrap; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+#trend { position: relative; margin-top: 12px; }
+#trend svg { display: block; width: 100%; height: 240px; overflow: visible; }
+.tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12.5px; box-shadow: 0 4px 16px rgba(0,0,0,.12); white-space: nowrap; display: none; z-index: 2; }
+.tip b { font-variant-numeric: tabular-nums; }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin: 0 0 16px; overflow-x: auto; }
+.tabs button { border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; color: var(--text-secondary); padding: 10px 14px; white-space: nowrap; }
+.tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--accent); font-weight: 600; }
+.issue { display: grid; grid-template-columns: 92px 1fr; gap: 12px; padding: 14px 0; border-top: 1px solid var(--border); }
+.issue:first-child { border-top: 0; }
+@media (max-width: 560px) { .issue { grid-template-columns: 1fr; gap: 6px; } }
+.status { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; height: fit-content; width: fit-content; }
+.status.fail { color: var(--crit-ink); background: color-mix(in srgb, var(--critical) 14%, transparent); }
+.status.warn { color: var(--warn-ink); background: color-mix(in srgb, var(--warning) 18%, transparent); }
+.status.pass { color: var(--good-ink); background: color-mix(in srgb, var(--good) 14%, transparent); }
+.issue .t { font-weight: 600; }
+.cat { font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--text-muted); margin-left: 6px; }
+.issue .d { color: var(--text-secondary); font-size: 13.5px; }
+.issue .fix { font-size: 13.5px; margin-top: 4px; }
+.issue .fix::before { content: "Fix → "; font-weight: 600; color: var(--text-primary); }
+details { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+details ul { margin: 6px 0 0; padding-left: 18px; word-break: break-all; }
+.filters { display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+.filters button[aria-pressed="true"] { background: var(--surface-2); font-weight: 600; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { text-align: left; padding: 9px 10px; border-top: 1px solid var(--border); vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; border-top: 0; cursor: pointer; white-space: nowrap; user-select: none; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+td.url { max-width: 380px; word-break: break-all; }
+tr.page-row { cursor: pointer; }
+tr.page-row:hover td { background: var(--surface-2); }
+tr.detail td { background: var(--surface-2); }
+.sc { font-weight: 600; }
+.sc.lo { color: var(--crit-ink); } .sc.mid { color: var(--warn-ink); } .sc.hi { color: var(--good-ink); }
+.empty { text-align: center; padding: 64px 16px; color: var(--text-secondary); }
+.explain { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+@media (max-width: 760px) { .explain { grid-template-columns: 1fr; } }
+.explain p { margin: 0; font-size: 13.5px; color: var(--text-secondary); }
+footer { margin-top: 32px; font-size: 12.5px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Search Visibility Audit · <span id="siteName">careficient.com</span></h1>
+      <div class="sub">SEO, AEO and GEO health, re-checked automatically around the clock</div>
+    </div>
+    <div class="row">
+      <span class="pill" id="freshness"><span class="dot"></span><span>Loading…</span></span>
+      <button id="runBtn" class="primary" hidden>Run audit now</button>
+      <a id="ghBtn" class="btn" hidden target="_blank" rel="noopener">Run on GitHub</a>
+      <button id="themeBtn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main id="app"><div class="card empty">Loading latest audit…</div></main>
+
+  <footer>
+    Scores weight site‑wide checks 40% and the average page score 60%. Pass = 1, warning = ½, fail = 0, weighted by impact.
+    Page auto‑refreshes every 5 minutes.
+  </footer>
+</div>
+
+<script>
+const REPO = 'domyarborough-cell/Claude-House';
+const CATS = [
+  { key: 'seo', name: 'SEO', long: 'Search engine optimization', blurb: 'Can Google & Bing crawl, index and rank the pages?' },
+  { key: 'aeo', name: 'AEO', long: 'Answer engine optimization', blurb: 'Is content shaped as direct answers for snippets, voice & AI Overviews?' },
+  { key: 'geo', name: 'GEO', long: 'Generative engine optimization', blurb: 'Can ChatGPT, Claude, Perplexity & Gemini read, trust and cite you?' },
+];
+const ICON = { pass: '✓', warn: '!', fail: '✕' };
+const LABEL = { pass: 'Pass', warn: 'Warning', fail: 'Fail' };
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const band = (v) => (v >= 80 ? 'hi' : v >= 50 ? 'mid' : 'lo');
+const statusPill = (s) => `<span class="status ${s}" aria-label="${LABEL[s]}">${ICON[s]} ${LABEL[s]}</span>`;
+const shortUrl = (u) => { try { const x = new URL(u); return x.pathname + x.search || '/'; } catch { return u; } };
+function ago(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 1) return 'just now'; if (m < 60) return `${m} min ago`;
+  const h = Math.round(m / 60); if (h < 48) return `${h} h ago`;
+  return `${Math.round(h / 24)} days ago`;
+}
+
+// Theme toggle (remembered per viewer)
+try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+$('#themeBtn').onclick = () => {
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = document.documentElement.dataset.theme || (dark ? 'dark' : 'light');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem('theme', next); } catch {}
+  if (state.history) drawTrend();
+};
+
+const state = { report: null, history: null, tab: 'fixes', filter: 'all', sort: { key: 'overall', dir: 1 }, live: false, open: new Set() };
+
+async function load() {
+  const bust = `?t=${Date.now()}`;
+  try {
+    const [r, h] = await Promise.all([
+      fetch('data/latest.json' + bust).then((x) => (x.ok ? x.json() : null)),
+      fetch('data/history.json' + bust).then((x) => (x.ok ? x.json() : [])).catch(() => []),
+    ]);
+    state.report = r; state.history = h;
+  } catch { state.report = null; }
+  render();
+}
+
+async function detectLive() {
+  try {
+    const s = await fetch('api/status', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null));
+    state.live = !!s?.live;
+  } catch { state.live = false; }
+  $('#runBtn').hidden = !state.live;
+  const gh = $('#ghBtn');
+  gh.hidden = state.live;
+  gh.href = `https://github.com/${REPO}/actions/workflows/audit.yml`;
+}
+
+$('#runBtn').onclick = async () => {
+  const b = $('#runBtn'); b.disabled = true; b.textContent = 'Auditing…';
+  try { await fetch('api/audit', { method: 'POST' }); } finally { b.disabled = false; b.textContent = 'Run audit now'; load(); }
+};
+
+function render() {
+  const r = state.report;
+  const app = $('#app');
+  if (!r) {
+    app.innerHTML = `<div class="card empty"><h2>No audit data yet</h2>
+      <p>The first scheduled audit hasn't run. Trigger it from <a href="https://github.com/${REPO}/actions/workflows/audit.yml" target="_blank" rel="noopener">GitHub Actions</a>
+      or run <code>npm run audit</code> locally.</p></div>`;
+    $('#freshness').innerHTML = '<span class="dot stale"></span><span>No data</span>';
+    return;
+  }
+  $('#siteName').textContent = new URL(r.site).host;
+  const ageMin = (Date.now() - new Date(r.generatedAt)) / 60000;
+  $('#freshness').innerHTML = `<span class="dot ${ageMin > 150 ? 'stale' : 'pulse'}"></span><span>Last audit ${ago(r.generatedAt)} · ${r.totals.pages} pages</span>`;
+  $('#freshness').title = new Date(r.generatedAt).toLocaleString();
+
+  const prev = state.history.length > 1 ? state.history[state.history.length - 2] : null;
+  const delta = (k) => {
+    if (!prev || prev[k] == null) return '<span class="delta">First run</span>';
+    const d = r.scores[k] - prev[k];
+    return `<span class="delta ${d > 0 ? 'up' : d < 0 ? 'down' : ''}">${d > 0 ? '▲ +' : d < 0 ? '▼ ' : '± '}${d} since last run</span>`;
+  };
+  const counts = (cat) => {
+    const cs = [...r.siteChecks, ...r.pages.flatMap((p) => p.checks)].filter((c) => !cat || c.category === cat);
+    const n = (s) => cs.filter((c) => c.status === s).length;
+    return `<div class="counts"><span>${ICON.pass} ${n('pass')} passed</span><span>${ICON.warn} ${n('warn')} warnings</span><span>${ICON.fail} ${n('fail')} failed</span></div>`;
+  };
+
+  app.innerHTML = `
+    <section class="grid scores">
+      <div class="card tile hero">
+        <div class="label">Overall visibility score</div>
+        <div class="num">${r.scores.overall}<span class="sub" style="font-size:20px">/100</span></div>
+        ${delta('overall')}
+        ${counts()}
+      </div>
+      ${CATS.map((c) => `
+      <div class="card tile">
+        <div class="label"><i style="background:var(--${c.key})"></i>${c.name} · ${c.long}</div>
+        <div class="num">${r.scores[c.key]}</div>
+        ${delta(c.key)}
+        <div class="meter" role="meter" aria-valuenow="${r.scores[c.key]}" aria-valuemin="0" aria-valuemax="100" aria-label="${c.name} score"><span style="width:${r.scores[c.key]}%;background:var(--${c.key})"></span></div>
+        <div class="blurb">${c.blurb}</div>
+      </div>`).join('')}
+    </section>
+
+    <section class="card chart-card">
+      <div class="row" style="justify-content:space-between">
+        <h2 style="margin:0">Score trend</h2>
+        <div class="legend">${CATS.map((c) => `<span><i style="background:var(--${c.key})"></i>${c.name}</span>`).join('')}</div>
+      </div>
+      <div id="trend"></div>
+    </section>
+
+    <section class="card">
+      <div class="tabs" role="tablist">
+        ${[['fixes', 'Priority fixes'], ['seo', 'SEO checks'], ['aeo', 'AEO checks'], ['geo', 'GEO checks'], ['pages', 'Pages']]
+          .map(([k, n]) => `<button role="tab" data-tab="${k}" aria-selected="${state.tab === k}">${n}</button>`).join('')}
+      </div>
+      <div id="panel"></div>
+    </section>
+
+    <section class="explain">
+      ${CATS.map((c) => `<div class="card"><h2><span style="color:var(--${c.key})">■</span> ${c.name}</h2><p>${c.blurb} ${EXPLAIN[c.key]}</p></div>`).join('')}
+    </section>`;
+
+  app.querySelectorAll('[data-tab]').forEach((b) => (b.onclick = () => { state.tab = b.dataset.tab; render(); }));
+  drawTrend();
+  renderPanel();
+}
+
+const EXPLAIN = {
+  seo: 'Checks status codes, speed, titles, descriptions, canonicals, indexability, sitemap, HTTPS, mobile and internal linking.',
+  aeo: 'Checks question-shaped headings, snippet-length answers, FAQ/HowTo schema, lists & tables, and breadcrumbs.',
+  geo: 'Checks AI-crawler access (robots.txt and firewall), llms.txt, server-rendered content, entity schema, citations, stats and freshness.',
+};
+
+function issueHtml(i) {
+  const pages = i.pages?.length ? `<details><summary>Affects ${i.pages.length} page${i.pages.length > 1 ? 's' : ''}</summary><ul>${i.pages.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(shortUrl(u))}</a></li>`).join('')}</ul></details>` : i.scope === 'site' ? '<details><summary>Site-wide</summary></details>' : '';
+  return `<div class="issue">${statusPill(i.status)}<div>
+    <div class="t">${esc(i.label)}<span class="cat">${i.category}</span></div>
+    <div class="d">${esc(i.detail)}</div>
+    ${i.fix ? `<div class="fix">${esc(i.fix)}</div>` : ''}${pages}</div></div>`;
+}
+
+function renderPanel() {
+  const r = state.report;
+  const panel = $('#panel');
+  if (state.tab === 'fixes') {
+    const list = r.issues.filter((i) => state.filter === 'all' || i.category === state.filter);
+    panel.innerHTML = `<div class="filters">${['all', 'seo', 'aeo', 'geo'].map((f) => `<button data-f="${f}" aria-pressed="${state.filter === f}">${f === 'all' ? 'All' : f.toUpperCase()}</button>`).join('')}</div>
+      <p class="sub" style="margin:0 0 4px">Ranked by impact: severity × weight × pages affected. Fix from the top down.</p>
+      ${list.length ? list.map(issueHtml).join('') : '<div class="empty">Nothing to fix here 🎉</div>'}`;
+    panel.querySelectorAll('[data-f]').forEach((b) => (b.onclick = () => { state.filter = b.dataset.f; renderPanel(); }));
+  } else if (state.tab === 'pages') {
+    renderPages(panel);
+  } else {
+    const cat = state.tab;
+    const site = r.siteChecks.filter((c) => c.category === cat);
+    // Aggregate page checks by id
+    const agg = new Map();
+    for (const p of r.pages) for (const c of p.checks.filter((c) => c.category === cat)) {
+      if (!agg.has(c.id)) agg.set(c.id, { ...c, pass: 0, warn: 0, fail: 0, pages: [] });
+      const a = agg.get(c.id); a[c.status]++; if (c.status !== 'pass') a.pages.push(p.url);
+    }
+    const rows = [...agg.values()].map((a) => ({ ...a, status: a.fail ? 'fail' : a.warn ? 'warn' : 'pass',
+      detail: `${a.pass}/${a.pass + a.warn + a.fail} pages pass${a.warn ? ` · ${a.warn} warnings` : ''}${a.fail ? ` · ${a.fail} failing` : ''}` }));
+    const order = { fail: 0, warn: 1, pass: 2 };
+    panel.innerHTML = `<h2>Site-wide</h2>${site.length ? site.sort((a, b) => order[a.status] - order[b.status]).map((c) => issueHtml({ ...c, scope: 'site-only' })).join('') : '<p class="sub">No site-wide checks.</p>'}
+      <h2 style="margin-top:20px">Per page</h2>${rows.sort((a, b) => order[a.status] - order[b.status] || b.weight - a.weight).map((c) => issueHtml({ ...c, fix: c.status === 'pass' ? null : c.fix })).join('')}`;
+  }
+}
+
+function renderPages(panel) {
+  const r = state.report;
+  const cols = [['url', 'Page'], ['status', 'Status', 'n'], ['timeMs', 'Time (ms)', 'n'], ['words', 'Words', 'n'], ['seo', 'SEO', 'n'], ['aeo', 'AEO', 'n'], ['geo', 'GEO', 'n']];
+  const val = (p, k) => (['seo', 'aeo', 'geo'].includes(k) ? p.scores[k] ?? -1 : k === 'overall' ? (p.scores.seo + p.scores.aeo + p.scores.geo) : p[k]);
+  const rows = [...r.pages].sort((a, b) => { const x = val(a, state.sort.key), y = val(b, state.sort.key); return (x > y ? 1 : x < y ? -1 : 0) * state.sort.dir; });
+  const sc = (v) => (v == null ? '—' : `<span class="sc ${band(v)}">${v}</span>`);
+  panel.innerHTML = `<p class="sub" style="margin-top:0">Click a row to see every check for that page. Click a header to sort.</p>
+    <div class="tablewrap"><table><thead><tr>${cols.map(([k, n, c]) => `<th class="${c || ''}" data-k="${k}">${n}${state.sort.key === k ? (state.sort.dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead><tbody>
+    ${rows.map((p) => `<tr class="page-row" data-u="${esc(p.url)}"><td class="url">${esc(shortUrl(p.url))}${p.title ? `<div class="sub" style="font-size:12px">${esc(p.title)}</div>` : ''}</td>
+      <td class="n">${p.status || 'ERR'}</td><td class="n">${p.timeMs}</td><td class="n">${p.words ?? 0}</td><td class="n">${sc(p.scores.seo)}</td><td class="n">${sc(p.scores.aeo)}</td><td class="n">${sc(p.scores.geo)}</td></tr>
+      ${state.open.has(p.url) ? `<tr class="detail"><td colspan="7"><a href="${esc(p.url)}" target="_blank" rel="noopener">Open page ↗</a>${['fail', 'warn', 'pass'].flatMap((s) => p.checks.filter((c) => c.status === s)).map(issueHtml).join('')}</td></tr>` : ''}`).join('')}
+    </tbody></table></div>`;
+  panel.querySelectorAll('th').forEach((th) => (th.onclick = () => {
+    const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; renderPages(panel);
+  }));
+  panel.querySelectorAll('.page-row').forEach((tr) => (tr.onclick = () => {
+    const u = tr.dataset.u; state.open.has(u) ? state.open.delete(u) : state.open.add(u); renderPages(panel);
+  }));
+}
+
+function drawTrend() {
+  const host = $('#trend');
+  if (!host) return;
+  const h = state.history.slice(-24 * 30); // last ~30 days of hourly runs
+  if (h.length < 2) { host.innerHTML = '<p class="sub">The trend appears after the second audit run.</p>'; return; }
+  const W = host.clientWidth || 800, H = 240, m = { l: 34, r: 44, t: 10, b: 26 };
+  const t0 = new Date(h[0].at).getTime(), t1 = new Date(h[h.length - 1].at).getTime();
+  const x = (t) => m.l + ((new Date(t).getTime() - t0) / Math.max(1, t1 - t0)) * (W - m.l - m.r);
+  const y = (v) => m.t + (1 - v / 100) * (H - m.t - m.b);
+  const grid = [0, 25, 50, 75, 100].map((v) => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--grid)"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="var(--text-muted)">${v}</text>`).join('');
+  const fmt = (t) => new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  const xt = [h[0].at, h[Math.floor(h.length / 2)].at, h[h.length - 1].at].map((t, i) => `<text x="${x(t)}" y="${H - 6}" font-size="11" fill="var(--text-muted)" text-anchor="${['start', 'middle', 'end'][i]}">${fmt(t)}</text>`).join('');
+  const last = h[h.length - 1];
+  // Direct labels at line ends, nudged apart to avoid collisions.
+  const ends = CATS.map((c) => ({ c, y: y(last[c.key]) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 13) ends[i].y = ends[i - 1].y + 13;
+  const lines = CATS.map((c) => `<path d="${h.map((p, i) => `${i ? 'L' : 'M'}${x(p.at).toFixed(1)},${y(p[c.key]).toFixed(1)}`).join('')}" fill="none" stroke="var(--${c.key})" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`).join('');
+  const labels = ends.map((e) => `<text x="${W - m.r + 6}" y="${e.y + 4}" font-size="11.5" font-weight="600" fill="var(--text-secondary)">${e.c.name} ${last[e.c.key]}</text>`).join('');
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="SEO, AEO and GEO scores over time">${grid}${xt}${lines}${labels}
+    <line id="xh" y1="${m.t}" y2="${H - m.b}" stroke="var(--text-muted)" stroke-dasharray="3 3" visibility="hidden"/>
+    ${CATS.map((c) => `<circle class="hd" data-k="${c.key}" r="4.5" fill="var(--${c.key})" stroke="var(--surface-1)" stroke-width="2" visibility="hidden"/>`).join('')}
+    <rect x="${m.l}" y="0" width="${W - m.l - m.r}" height="${H}" fill="transparent" id="hit"/></svg><div class="tip"></div>`;
+  const svg = $('svg', host), tip = $('.tip', host), xh = $('#xh', host);
+  $('#hit', host).onmousemove = (ev) => {
+    const px = ((ev.clientX - svg.getBoundingClientRect().left) / svg.getBoundingClientRect().width) * W;
+    let best = h[0]; for (const p of h) if (Math.abs(x(p.at) - px) < Math.abs(x(best.at) - px)) best = p;
+    const bx = x(best.at);
+    xh.setAttribute('x1', bx); xh.setAttribute('x2', bx); xh.setAttribute('visibility', 'visible');
+    host.querySelectorAll('.hd').forEach((d) => { d.setAttribute('cx', bx); d.setAttribute('cy', y(best[d.dataset.k])); d.setAttribute('visibility', 'visible'); });
+    tip.innerHTML = `<div class="sub" style="font-size:12px">${new Date(best.at).toLocaleString()}</div>` + CATS.map((c) => `<div><span style="color:var(--${c.key})">■</span> ${c.name} <b>${best[c.key]}</b></div>`).join('') + `<div>Overall <b>${best.overall}</b></div>`;
+    tip.style.display = 'block';
+    const left = (bx / W) * host.clientWidth;
+    tip.style.left = Math.min(left + 12, host.clientWidth - tip.offsetWidth) + 'px';
+    tip.style.top = '8px';
+  };
+  $('#hit', host).onmouseleave = () => { tip.style.display = 'none'; xh.setAttribute('visibility', 'hidden'); host.querySelectorAll('.hd').forEach((d) => d.setAttribute('visibility', 'hidden')); };
+}
+
+addEventListener('resize', () => state.history && drawTrend());
+detectLive();
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
