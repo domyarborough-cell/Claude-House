@@ -1,19 +1,19 @@
 {
  "site": "https://careficient.com/",
  "brand": "Careficient",
- "generatedAt": "2026-10-13T21:40:28.809Z",
- "durationMs": 8738,
+ "generatedAt": "2026-10-13T22:40:47.151Z",
+ "durationMs": 27372,
  "scores": {
-  "seo": 89,
+  "seo": 91,
   "aeo": 49,
   "geo": 86,
   "overall": 75
  },
  "totals": {
   "pages": 40,
-  "pass": 820,
-  "warn": 164,
-  "fail": 186
+  "pass": 822,
+  "warn": 199,
+  "fail": 149
  },
  "siteChecks": [
   {
@@ -66,7 +66,7 @@
    "id": "ai-crawler-firewall",
    "label": "AI bots not blocked by firewall/CDN",
    "status": "pass",
-   "detail": "GPTBot user-agent got 200, 361,356 bytes",
+   "detail": "GPTBot user-agent got 200, 363,158 bytes",
    "fix": null,
    "weight": 3
   },
@@ -156,8 +156,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 40,
    "warns": 0,
@@ -211,8 +211,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 40,
    "warns": 0,
@@ -220,14 +220,15 @@
   },
   {
    "category": "seo",
-   "id": "meta-description",
-   "label": "Meta description 70–160 chars",
+   "id": "response-time",
+   "label": "Fast server response",
    "status": "fail",
-   "detail": "Missing meta description",
-   "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+   "detail": "2873 ms to full HTML",
+   "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
    "weight": 2,
    "scope": "page",
    "pages": [
+    "https://careficient.com/",
     "https://careficient.com/news/careficient-appoints-steve-williams-as-chief-technology-office/1128/",
     "https://careficient.com/news/careficient-named-one-of-the-10-best-technology-solution-providers-in-2023/1125/",
     "https://careficient.com/news/careficient-signs-passages-hospice-as-a-landmark-enterprise-account/1131/",
@@ -265,12 +266,12 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
-   "fails": 39,
-   "warns": 0,
-   "impact": 156
+   "fails": 2,
+   "warns": 38,
+   "impact": 160
   },
   {
    "category": "seo",
@@ -319,8 +320,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 39,
    "warns": 0,
@@ -371,8 +372,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 27,
    "warns": 10,
@@ -417,12 +418,11 @@
     "https://careficient.com/news/cms-announces-changes-for-notice-of-admission-replacing-rap-in-2022/3555/",
     "https://careficient.com/news/careficient-appoints-brad-caldwell-chief-operating-officer/3553/",
     "https://careficient.com/education/courageous-conversations-de-prescribing-medications-to-ensure-patients-die-a-good-death/3502/",
-    "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/"
+    "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/"
    ],
    "fails": 0,
-   "warns": 31,
-   "impact": 93
+   "warns": 30,
+   "impact": 90
   },
   {
    "category": "aeo",
@@ -484,8 +484,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 0,
    "warns": 40,
@@ -539,8 +539,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 0,
    "warns": 40,
@@ -593,8 +593,8 @@
     "https://careficient.com/education/home-health-final-rule/3505/",
     "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
     "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-    "https://careficient.com/uncategorized/achc/3933/",
-    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/"
+    "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
+    "https://careficient.com/education/grace-for-the-broken-heart/4018/"
    ],
    "fails": 0,
    "warns": 39,
@@ -614,22 +614,6 @@
   },
   {
    "category": "seo",
-   "id": "response-time",
-   "label": "Fast server response",
-   "status": "warn",
-   "detail": "1157 ms to full HTML",
-   "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
-   "weight": 2,
-   "scope": "page",
-   "pages": [
-    "https://careficient.com/"
-   ],
-   "fails": 0,
-   "warns": 1,
-   "impact": 2
-  },
-  {
-   "category": "seo",
    "id": "open-graph",
    "label": "Open Graph tags",
    "status": "warn",
@@ -638,20 +622,19 @@
    "weight": 1,
    "scope": "page",
    "pages": [
-    "https://careficient.com/",
-    "https://careficient.com/uncategorized/achc/3933/"
+    "https://careficient.com/"
    ],
    "fails": 0,
-   "warns": 2,
-   "impact": 2
+   "warns": 1,
+   "impact": 1
   }
  ],
  "pages": [
   {
    "url": "https://careficient.com/",
    "status": 200,
-   "timeMs": 1157,
-   "bytes": 361356,
+   "timeMs": 2873,
+   "bytes": 363158,
    "title": "Home Health & Hospice EMR Software | Careficient",
    "words": 842,
    "schemaTypes": [
@@ -664,10 +647,12 @@
     "EntryPoint",
     "PropertyValueSpecification",
     "Organization",
-    "ImageObject"
+    "ImageObject",
+    "SoftwareApplication",
+    "Audience"
    ],
    "scores": {
-    "seo": 95,
+    "seo": 91,
     "aeo": 42,
     "geo": 82
    },
@@ -685,8 +670,8 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "warn",
-     "detail": "1157 ms to full HTML",
+     "status": "fail",
+     "detail": "2873 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -848,7 +833,7 @@
      "id": "structured-data",
      "label": "Valid JSON-LD present",
      "status": "pass",
-     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject",
+     "detail": "WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject, SoftwareApplication, Audience",
      "fix": null,
      "weight": 2
     },
@@ -884,7 +869,7 @@
      "id": "entity-schema",
      "label": "Entity schema (Organization/Product)",
      "status": "pass",
-     "detail": "Organization",
+     "detail": "Organization, SoftwareApplication",
      "fix": null,
      "weight": 2
     },
@@ -938,8 +923,8 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-steve-williams-as-chief-technology-office/1128/",
    "status": 200,
-   "timeMs": 113,
-   "bytes": 216293,
+   "timeMs": 1593,
+   "bytes": 216753,
    "title": "Careficient Appoints Steve Williams as Chief Technology Officer - Careficient",
    "words": 863,
    "schemaTypes": [
@@ -957,7 +942,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -975,9 +960,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "113 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1593 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -993,9 +978,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "145 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -1228,8 +1213,8 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-the-10-best-technology-solution-providers-in-2023/1125/",
    "status": 200,
-   "timeMs": 367,
-   "bytes": 215773,
+   "timeMs": 1938,
+   "bytes": 216386,
    "title": "Careficient Named One of the 10 Best Technology Solution Providers in 2023 - Careficient",
    "words": 847,
    "schemaTypes": [
@@ -1247,7 +1232,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -1265,9 +1250,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "367 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1938 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1283,9 +1268,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -1518,8 +1503,8 @@
   {
    "url": "https://careficient.com/news/careficient-signs-passages-hospice-as-a-landmark-enterprise-account/1131/",
    "status": 200,
-   "timeMs": 207,
-   "bytes": 221555,
+   "timeMs": 2018,
+   "bytes": 222141,
    "title": "Careficient Signs Passages Hospice as a Landmark Enterprise Account - Careficient",
    "words": 1076,
    "schemaTypes": [
@@ -1555,9 +1540,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "207 ms to full HTML",
-     "fix": null,
+     "status": "fail",
+     "detail": "2018 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1573,9 +1558,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "137 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -1808,8 +1793,8 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-gene-creach-as-chief-executive-officer/1147/",
    "status": 200,
-   "timeMs": 377,
-   "bytes": 218802,
+   "timeMs": 1999,
+   "bytes": 219296,
    "title": "Careficient Appoints Gene Creach as Chief Executive Officer - Careficient",
    "words": 899,
    "schemaTypes": [
@@ -1827,7 +1812,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -1845,9 +1830,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "377 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1999 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -1863,9 +1848,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "151 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -2098,8 +2083,8 @@
   {
    "url": "https://careficient.com/news/careficient-announces-hospice-pharmacy-integration-with-onepoint-patient-care/1149/",
    "status": 200,
-   "timeMs": 330,
-   "bytes": 217074,
+   "timeMs": 1515,
+   "bytes": 217846,
    "title": "Careficient Announces Hospice Pharmacy Integration with OnePoint Patient Care - Careficient",
    "words": 821,
    "schemaTypes": [
@@ -2117,7 +2102,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -2135,9 +2120,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "330 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1515 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2153,9 +2138,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -2388,8 +2373,8 @@
   {
    "url": "https://careficient.com/news/denise-watson-joins-the-careficient-executive-team-as-vice-president-of-hospice-services/1151/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 220395,
+   "timeMs": 1610,
+   "bytes": 220992,
    "title": "Denise Watson Joins the Careficient Executive Team as Vice President of Hospice Services - Careficient",
    "words": 995,
    "schemaTypes": [
@@ -2407,7 +2392,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -2425,9 +2410,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1610 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2443,9 +2428,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -2678,8 +2663,8 @@
   {
    "url": "https://careficient.com/news/careficient-acquires-home-health-hospice-home-care-palliative-and-rcm-solutions-from-net-health/1153/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 217947,
+   "timeMs": 1573,
+   "bytes": 218711,
    "title": "Careficient Acquires Home Health, Hospice, Home Care, Palliative and RCM Solutions from Net Health - Careficient",
    "words": 966,
    "schemaTypes": [
@@ -2697,7 +2682,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -2715,9 +2700,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1573 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -2733,9 +2718,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "156 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -2968,8 +2953,8 @@
   {
    "url": "https://careficient.com/news/careficient-announces-pharmacy-integration-with-enclara-pharmacia/1156/",
    "status": 200,
-   "timeMs": 112,
-   "bytes": 217482,
+   "timeMs": 1566,
+   "bytes": 217962,
    "title": "Careficient Announces Pharmacy Integration with Enclara Pharmacia - Careficient",
    "words": 791,
    "schemaTypes": [
@@ -2987,7 +2972,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -3005,9 +2990,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "112 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1566 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3023,9 +3008,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -3258,8 +3243,8 @@
   {
    "url": "https://careficient.com/news/careficient-emr-awarded-chap-verified-seal-certification/1158/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 217742,
+   "timeMs": 1558,
+   "bytes": 218380,
    "title": "Careficient EMR Awarded “CHAP VERIFIED” Seal Certification - Careficient",
    "words": 867,
    "schemaTypes": [
@@ -3277,7 +3262,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -3295,9 +3280,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1558 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3313,9 +3298,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "156 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -3548,8 +3533,8 @@
   {
    "url": "https://careficient.com/news/careficient-becomes-the-first-emr-solution-provider-to-receive-achc-accreditation/1160/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 219696,
+   "timeMs": 1511,
+   "bytes": 219960,
    "title": "Careficient Becomes the First EMR Solution Provider to Receive ACHC Accreditation - Careficient",
    "words": 863,
    "schemaTypes": [
@@ -3567,7 +3552,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -3585,9 +3570,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1511 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3603,9 +3588,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "138 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -3838,8 +3823,8 @@
   {
    "url": "https://careficient.com/news/careficient-ranks-no-1678-on-the-2022-inc-5000-annual-list/1163/",
    "status": 200,
-   "timeMs": 114,
-   "bytes": 218533,
+   "timeMs": 1559,
+   "bytes": 219102,
    "title": "Careficient Ranks No.1678 on the 2022 Inc. 5000 Annual List - Careficient",
    "words": 1138,
    "schemaTypes": [
@@ -3857,7 +3842,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 95
    },
@@ -3875,9 +3860,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "114 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1559 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -3893,9 +3878,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "131 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -4128,8 +4113,8 @@
   {
    "url": "https://careficient.com/news/careficient-broadens-pharmacy-solutions-with-highly-anticipated-betterrx-integration/1165/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 217550,
+   "timeMs": 1518,
+   "bytes": 218009,
    "title": "Careficient Broadens Pharmacy Solutions with Highly Anticipated BetterRX Integration - Careficient",
    "words": 900,
    "schemaTypes": [
@@ -4147,7 +4132,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -4165,9 +4150,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1518 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -4183,9 +4168,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "150 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -4418,8 +4403,8 @@
   {
    "url": "https://careficient.com/news/careficient-and-celltrak-partner-for-evv-efficiency/1168/",
    "status": 200,
-   "timeMs": 112,
-   "bytes": 218943,
+   "timeMs": 1567,
+   "bytes": 219551,
    "title": "Careficient and CellTrak Partner for EVV Efficiency - Careficient",
    "words": 1026,
    "schemaTypes": [
@@ -4437,7 +4422,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -4455,9 +4440,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "112 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1567 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -4473,9 +4458,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "152 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -4708,8 +4693,8 @@
   {
    "url": "https://careficient.com/news/careficient-releases-advanced-e-faxing-capabilities-as-an-add-on-to-the-core-suite-of-emr-solutions/1170/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 218724,
+   "timeMs": 1638,
+   "bytes": 219261,
    "title": "Careficient Releases Advanced e-Faxing Capabilities as an Add-on to the Core Suite of EMR Solutions - Careficient",
    "words": 742,
    "schemaTypes": [
@@ -4727,7 +4712,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -4745,9 +4730,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1638 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -4763,9 +4748,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "143 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -4935,7 +4920,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "742 words in server HTML · text/HTML ratio 2.4%",
+     "detail": "742 words in server HTML · text/HTML ratio 2.3%",
      "fix": null,
      "weight": 3
     },
@@ -4998,8 +4983,8 @@
   {
    "url": "https://careficient.com/news/careficient-launches-industry-leading-surveyor-portal-to-expedite-the-survey-process/1172/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 215937,
+   "timeMs": 1608,
+   "bytes": 216592,
    "title": "Careficient Launches Industry Leading Surveyor Portal to Expedite the Survey Process - Careficient",
    "words": 751,
    "schemaTypes": [
@@ -5017,7 +5002,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -5035,9 +5020,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1608 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -5053,9 +5038,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "150 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -5288,8 +5273,8 @@
   {
    "url": "https://careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 216068,
+   "timeMs": 1607,
+   "bytes": 216524,
    "title": "Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient",
    "words": 752,
    "schemaTypes": [
@@ -5307,7 +5292,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -5325,9 +5310,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1607 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -5343,9 +5328,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -5578,8 +5563,8 @@
   {
    "url": "https://careficient.com/news/careficient-makes-the-list-as-one-of-the-fastest-growing-private-companies-in-the-south-east/1176/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 219186,
+   "timeMs": 1575,
+   "bytes": 219705,
    "title": "Careficient Makes the List as one of the Fastest-Growing Private Companies in the South East - Careficient",
    "words": 1128,
    "schemaTypes": [
@@ -5597,7 +5582,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 95
    },
@@ -5615,9 +5600,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1575 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -5633,9 +5618,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "135 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -5868,8 +5853,8 @@
   {
    "url": "https://careficient.com/education/home-health-documentation-strategies-for-cms-audits/1190/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 213792,
+   "timeMs": 1538,
+   "bytes": 214437,
    "title": "Home Health Documentation Strategies for CMS Audits - Careficient",
    "words": 554,
    "schemaTypes": [
@@ -5887,7 +5872,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -5905,9 +5890,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1538 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -5923,9 +5908,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "151 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -6158,8 +6143,8 @@
   {
    "url": "https://careficient.com/education/documentation-and-how-it-impacts-federal-government-audit-outcomes-in-hospice/1185/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 214546,
+   "timeMs": 1580,
+   "bytes": 215197,
    "title": "Documentation and how it Impacts Federal Government Audit Outcomes in Hospice - Careficient",
    "words": 567,
    "schemaTypes": [
@@ -6177,7 +6162,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -6195,9 +6180,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1580 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -6213,9 +6198,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "150 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -6448,8 +6433,8 @@
   {
    "url": "https://careficient.com/education/home-health-case-management/1178/",
    "status": 200,
-   "timeMs": 108,
-   "bytes": 212374,
+   "timeMs": 1574,
+   "bytes": 212980,
    "title": "Home Health Case Management - Careficient",
    "words": 508,
    "schemaTypes": [
@@ -6467,7 +6452,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -6485,9 +6470,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "108 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1574 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -6503,9 +6488,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -6738,8 +6723,8 @@
   {
    "url": "https://careficient.com/education/health-equity-as-a-strategy-for-quality-improvement-in-hospice/3487/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 213046,
+   "timeMs": 1577,
+   "bytes": 213699,
    "title": "Health Equity as a Strategy for Quality Improvement in Hospice - Careficient",
    "words": 563,
    "schemaTypes": [
@@ -6757,7 +6742,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -6775,9 +6760,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1577 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -6793,9 +6778,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "155 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -7028,8 +7013,8 @@
   {
    "url": "https://careficient.com/education/home-health-proposed-rule-cy2024/3490/",
    "status": 200,
-   "timeMs": 108,
-   "bytes": 211880,
+   "timeMs": 1547,
+   "bytes": 212494,
    "title": "Home Health Proposed Rule CY2024 - Careficient",
    "words": 511,
    "schemaTypes": [
@@ -7047,7 +7032,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -7065,9 +7050,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "108 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1547 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -7083,9 +7068,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -7318,8 +7303,8 @@
   {
    "url": "https://careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 212516,
+   "timeMs": 1552,
+   "bytes": 213178,
    "title": "The Value of Leadership, Core Values and Teamwork - Careficient",
    "words": 564,
    "schemaTypes": [
@@ -7337,7 +7322,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -7355,9 +7340,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1552 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -7373,9 +7358,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "151 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -7608,8 +7593,8 @@
   {
    "url": "https://careficient.com/education/using-typical-atypical-opioids-for-managing-pain-end-of-life-care/3496/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 213075,
+   "timeMs": 1504,
+   "bytes": 213599,
    "title": "Using Typical & Atypical Opioids for Managing Pain & End-of-life Care - Careficient",
    "words": 558,
    "schemaTypes": [
@@ -7627,7 +7612,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -7645,9 +7630,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1504 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -7663,9 +7648,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "147 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -7898,8 +7883,8 @@
   {
    "url": "https://careficient.com/education/death-with-dignity-in-hospice-home-health/3499/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 212602,
+   "timeMs": 1609,
+   "bytes": 213103,
    "title": "Death with Dignity in Hospice & Home Health - Careficient",
    "words": 553,
    "schemaTypes": [
@@ -7917,7 +7902,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -7935,9 +7920,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1609 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -7953,9 +7938,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -8188,8 +8173,8 @@
   {
    "url": "https://careficient.com/news/hhcn-voices-spotlights-careficient/3541/",
    "status": 200,
-   "timeMs": 113,
-   "bytes": 229340,
+   "timeMs": 1511,
+   "bytes": 229962,
    "title": "HHCN Voices spotlights Careficient - Careficient",
    "words": 2234,
    "schemaTypes": [
@@ -8207,7 +8192,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 95
    },
@@ -8225,9 +8210,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "113 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1511 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -8243,9 +8228,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "146 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -8415,7 +8400,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "2234 words in server HTML · text/HTML ratio 6.0%",
+     "detail": "2234 words in server HTML · text/HTML ratio 5.9%",
      "fix": null,
      "weight": 3
     },
@@ -8478,8 +8463,8 @@
   {
    "url": "https://careficient.com/news/careficient-emr-empowers-agencies-with-robust-self-training-program-careficient-university/3544/",
    "status": 200,
-   "timeMs": 112,
-   "bytes": 217349,
+   "timeMs": 1577,
+   "bytes": 217905,
    "title": "Careficient EMR Empowers Agencies with Robust Self-Training Program Careficient University - Careficient",
    "words": 946,
    "schemaTypes": [
@@ -8497,7 +8482,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -8515,9 +8500,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "112 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1577 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -8533,9 +8518,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "156 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -8768,8 +8753,8 @@
   {
    "url": "https://careficient.com/news/cms-to-mandate-home-health-employees-get-covid-shot-or-agency-risks-losing-medicare-reimbursement/3547/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 217227,
+   "timeMs": 1577,
+   "bytes": 217947,
    "title": "CMS to mandate Home Health employees get Covid shot, or agency risks losing Medicare reimbursement - Careficient",
    "words": 986,
    "schemaTypes": [
@@ -8787,7 +8772,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -8805,9 +8790,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1577 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -8823,9 +8808,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "143 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -9058,8 +9043,8 @@
   {
    "url": "https://careficient.com/news/flex-for-checks-and-home-health-agencies-you-can-make-a-difference/3549/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 213842,
+   "timeMs": 1566,
+   "bytes": 214667,
    "title": "Flex for Checks and Home Health Agencies - You Can Make a Difference - Careficient",
    "words": 626,
    "schemaTypes": [
@@ -9077,7 +9062,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -9095,9 +9080,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1566 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -9113,9 +9098,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "146 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -9348,8 +9333,8 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-americas-fastest-growing-companies-by-inc-magazine-ranks-no-1616/3551/",
    "status": 200,
-   "timeMs": 109,
-   "bytes": 219531,
+   "timeMs": 1520,
+   "bytes": 219979,
    "title": "Careficient named one of America’s Fastest-Growing Companies by Inc. Magazine. Ranks No. 1,616 - Careficient",
    "words": 1088,
    "schemaTypes": [
@@ -9367,7 +9352,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -9385,9 +9370,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "109 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1520 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -9403,9 +9388,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "139 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -9638,8 +9623,8 @@
   {
    "url": "https://careficient.com/news/cms-announces-changes-for-notice-of-admission-replacing-rap-in-2022/3555/",
    "status": 200,
-   "timeMs": 111,
-   "bytes": 213570,
+   "timeMs": 1589,
+   "bytes": 214066,
    "title": "CMS Announces Changes for Notice of Admission Replacing RAP in 2022 - Careficient",
    "words": 597,
    "schemaTypes": [
@@ -9657,7 +9642,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 86
    },
@@ -9675,9 +9660,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "111 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1589 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -9693,9 +9678,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "150 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -9928,8 +9913,8 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-brad-caldwell-chief-operating-officer/3553/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 212714,
+   "timeMs": 1532,
+   "bytes": 213384,
    "title": "Careficient appoints Brad Caldwell Chief Operating Officer - Careficient",
    "words": 553,
    "schemaTypes": [
@@ -9947,7 +9932,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -9965,9 +9950,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1532 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -9983,9 +9968,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "157 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -10218,8 +10203,8 @@
   {
    "url": "https://careficient.com/news/wound-documentation-to-avoid-lost-revenue/3557/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 212700,
+   "timeMs": 1523,
+   "bytes": 213330,
    "title": "Wound Documentation to Avoid Lost Revenue - Careficient",
    "words": 650,
    "schemaTypes": [
@@ -10237,7 +10222,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -10255,9 +10240,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1523 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -10273,9 +10258,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "158 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -10508,8 +10493,8 @@
   {
    "url": "https://careficient.com/education/courageous-conversations-de-prescribing-medications-to-ensure-patients-die-a-good-death/3502/",
    "status": 200,
-   "timeMs": 109,
-   "bytes": 214091,
+   "timeMs": 1626,
+   "bytes": 214724,
    "title": "Courageous Conversations: De-prescribing Medications to Ensure Patients 'Die a Good Death' - Careficient",
    "words": 621,
    "schemaTypes": [
@@ -10527,7 +10512,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -10545,9 +10530,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "109 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1626 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -10563,9 +10548,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "149 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -10798,8 +10783,8 @@
   {
    "url": "https://careficient.com/education/home-health-final-rule/3505/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 212428,
+   "timeMs": 1597,
+   "bytes": 212773,
    "title": "Home Health Final Rule - Careficient",
    "words": 547,
    "schemaTypes": [
@@ -10817,7 +10802,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -10835,9 +10820,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1597 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -10853,9 +10838,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "152 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -11088,8 +11073,8 @@
   {
    "url": "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
    "status": 200,
-   "timeMs": 112,
-   "bytes": 212777,
+   "timeMs": 1525,
+   "bytes": 213571,
    "title": "Visioneering Home Health and Hospice - Careficient",
    "words": 601,
    "schemaTypes": [
@@ -11107,7 +11092,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -11125,9 +11110,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "112 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1525 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -11143,9 +11128,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "152 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -11378,8 +11363,8 @@
   {
    "url": "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 214184,
+   "timeMs": 1490,
+   "bytes": 214873,
    "title": "Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient",
    "words": 602,
    "schemaTypes": [
@@ -11397,7 +11382,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 80,
+    "seo": 84,
     "aeo": 42,
     "geo": 77
    },
@@ -11415,9 +11400,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1490 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -11433,9 +11418,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "152 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -11666,300 +11651,10 @@
    ]
   },
   {
-   "url": "https://careficient.com/uncategorized/achc/3933/",
-   "status": 200,
-   "timeMs": 108,
-   "bytes": 208931,
-   "title": "ACHC - Careficient",
-   "words": 475,
-   "schemaTypes": [
-    "Article",
-    "WebPage",
-    "ReadAction",
-    "BreadcrumbList",
-    "ListItem",
-    "WebSite",
-    "SearchAction",
-    "EntryPoint",
-    "PropertyValueSpecification",
-    "Organization",
-    "ImageObject",
-    "Person"
-   ],
-   "scores": {
-    "seo": 79,
-    "aeo": 42,
-    "geo": 77
-   },
-   "checks": [
-    {
-     "category": "seo",
-     "id": "http-status",
-     "label": "HTTP 200 response",
-     "status": "pass",
-     "detail": "Status 200",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "response-time",
-     "label": "Fast server response",
-     "status": "pass",
-     "detail": "108 ms to full HTML",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "title",
-     "label": "Title tag 30–60 chars",
-     "status": "warn",
-     "detail": "\"ACHC - Careficient\" (18 chars)",
-     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "meta-description",
-     "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "h1",
-     "label": "Exactly one H1",
-     "status": "fail",
-     "detail": "No H1 found",
-     "fix": "Use a single H1 that states the page topic.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "heading-structure",
-     "label": "Uses H2 sub-sections",
-     "status": "pass",
-     "detail": "2 H2 headings",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "canonical",
-     "label": "Canonical URL set",
-     "status": "pass",
-     "detail": "https://www.careficient.com/uncategorized/achc/3933/",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "indexable",
-     "label": "Indexable (no noindex)",
-     "status": "pass",
-     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "lang",
-     "label": "HTML lang attribute",
-     "status": "pass",
-     "detail": "lang=\"en-US\"",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "viewport",
-     "label": "Mobile viewport meta",
-     "status": "pass",
-     "detail": "width=device-width, initial-scale=1.0",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "img-alt",
-     "label": "Images have alt text",
-     "status": "pass",
-     "detail": "26/26 images with alt",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "open-graph",
-     "label": "Open Graph tags",
-     "status": "warn",
-     "detail": "Missing og:image",
-     "fix": "Add Open Graph tags so shares (and some AI previews) render rich cards.",
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "internal-links",
-     "label": "Internal links",
-     "status": "pass",
-     "detail": "89 internal links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "content-length",
-     "label": "Substantive content (300+ words)",
-     "status": "pass",
-     "detail": "475 words",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "https",
-     "label": "Served over HTTPS",
-     "status": "pass",
-     "detail": "https",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "question-headings",
-     "label": "Question-style headings",
-     "status": "fail",
-     "detail": "0 question headings",
-     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "concise-answers",
-     "label": "Concise answers under questions (15–70 words)",
-     "status": "fail",
-     "detail": "0/0 questions followed by a snippet-length answer",
-     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "qa-schema",
-     "label": "FAQ / HowTo / QA schema",
-     "status": "warn",
-     "detail": "None",
-     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "scannable",
-     "label": "Lists or tables for extraction",
-     "status": "pass",
-     "detail": "16 lists, 0 tables",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "structured-data",
-     "label": "Valid JSON-LD present",
-     "status": "pass",
-     "detail": "Article, WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject, Person",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "breadcrumbs",
-     "label": "BreadcrumbList schema",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "lead-summary",
-     "label": "Clear lead summary paragraph",
-     "status": "warn",
-     "detail": "First paragraph 11 words",
-     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "server-rendered",
-     "label": "Content in raw HTML (no JS needed)",
-     "status": "pass",
-     "detail": "475 words in server HTML · text/HTML ratio 1.5%",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "geo",
-     "id": "entity-schema",
-     "label": "Entity schema (Organization/Product)",
-     "status": "pass",
-     "detail": "Organization",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "authorship",
-     "label": "Author / publisher signals",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "freshness",
-     "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 909 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "statistics",
-     "label": "Specific facts & statistics",
-     "status": "fail",
-     "detail": "0 quantified claims",
-     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "citations",
-     "label": "Cites external sources",
-     "status": "pass",
-     "detail": "20 outbound links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "brand-mentions",
-     "label": "Brand entity named in copy",
-     "status": "pass",
-     "detail": "\"Careficient\" mentioned 10×",
-     "fix": null,
-     "weight": 1
-    }
-   ]
-  },
-  {
    "url": "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
    "status": 200,
-   "timeMs": 110,
-   "bytes": 213041,
+   "timeMs": 1555,
+   "bytes": 213723,
    "title": "The New World of Home Health Surveys in 2024 - Careficient",
    "words": 621,
    "schemaTypes": [
@@ -11977,7 +11672,7 @@
     "Person"
    ],
    "scores": {
-    "seo": 86,
+    "seo": 89,
     "aeo": 42,
     "geo": 77
    },
@@ -11995,9 +11690,9 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "pass",
-     "detail": "110 ms to full HTML",
-     "fix": null,
+     "status": "warn",
+     "detail": "1555 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
     {
@@ -12013,9 +11708,9 @@
      "category": "seo",
      "id": "meta-description",
      "label": "Meta description 70–160 chars",
-     "status": "fail",
-     "detail": "Missing meta description",
-     "fix": "Add a compelling 70–160 character meta description summarizing the page.",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
      "weight": 2
     },
     {
@@ -12213,6 +11908,296 @@
      "label": "Freshness date signal",
      "status": "warn",
      "detail": "Updated 883 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 10×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/education/grace-for-the-broken-heart/4018/",
+   "status": 200,
+   "timeMs": 1502,
+   "bytes": 212878,
+   "title": "Grace for the Broken Heart - Careficient",
+   "words": 564,
+   "schemaTypes": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "Person"
+   ],
+   "scores": {
+    "seo": 89,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "warn",
+     "detail": "1502 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"Grace for the Broken Heart - Careficient\" (40 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "153 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "fail",
+     "detail": "No H1 found",
+     "fix": "Use a single H1 that states the page topic.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "3 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/education/grace-for-the-broken-heart/4018/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "28/28 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "pass",
+     "detail": "og:title, og:description, og:image present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "91 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "564 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "564 words in server HTML · text/HTML ratio 1.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 788 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
