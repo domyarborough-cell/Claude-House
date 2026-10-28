@@ -1,8 +1,8 @@
 {
  "site": "https://careficient.com/",
  "brand": "Careficient",
- "generatedAt": "2026-10-28T03:53:01.804Z",
- "durationMs": 10905,
+ "generatedAt": "2026-10-28T04:53:45.710Z",
+ "durationMs": 10255,
  "scores": {
   "seo": 98,
   "aeo": 49,
@@ -12,8 +12,8 @@
  "totals": {
   "pages": 40,
   "pass": 900,
-  "warn": 161,
-  "fail": 109
+  "warn": 162,
+  "fail": 108
  },
  "siteChecks": [
   {
@@ -507,17 +507,17 @@
    "category": "seo",
    "id": "response-time",
    "label": "Fast server response",
-   "status": "fail",
-   "detail": "2965 ms to full HTML",
+   "status": "warn",
+   "detail": "1091 ms to full HTML",
    "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
    "weight": 2,
    "scope": "page",
    "pages": [
     "https://careficient.com/"
    ],
-   "fails": 1,
-   "warns": 0,
-   "impact": 4
+   "fails": 0,
+   "warns": 1,
+   "impact": 2
   },
   {
    "category": "seo",
@@ -540,7 +540,7 @@
   {
    "url": "https://careficient.com/",
    "status": 200,
-   "timeMs": 2965,
+   "timeMs": 1091,
    "bytes": 373250,
    "title": "Home Health & Hospice EMR Software | Careficient",
    "words": 844,
@@ -559,7 +559,7 @@
     "Audience"
    ],
    "scores": {
-    "seo": 91,
+    "seo": 95,
     "aeo": 42,
     "geo": 82
    },
@@ -577,8 +577,8 @@
      "category": "seo",
      "id": "response-time",
      "label": "Fast server response",
-     "status": "fail",
-     "detail": "2965 ms to full HTML",
+     "status": "warn",
+     "detail": "1091 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -830,7 +830,7 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-steve-williams-as-chief-technology-office/1128/",
    "status": 200,
-   "timeMs": 102,
+   "timeMs": 71,
    "bytes": 217128,
    "title": "Careficient Appoints Steve Williams as Chief Technology Officer - Careficient",
    "words": 863,
@@ -868,7 +868,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "102 ms to full HTML",
+     "detail": "71 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -1120,7 +1120,7 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-the-10-best-technology-solution-providers-in-2023/1125/",
    "status": 200,
-   "timeMs": 418,
+   "timeMs": 281,
    "bytes": 216530,
    "title": "Careficient Named One of the 10 Best Technology Solution Providers in 2023 - Careficient",
    "words": 847,
@@ -1158,7 +1158,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "418 ms to full HTML",
+     "detail": "281 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -1410,7 +1410,7 @@
   {
    "url": "https://careficient.com/news/careficient-signs-passages-hospice-as-a-landmark-enterprise-account/1131/",
    "status": 200,
-   "timeMs": 412,
+   "timeMs": 271,
    "bytes": 222455,
    "title": "Careficient Signs Passages Hospice as a Landmark Enterprise Account - Careficient",
    "words": 1076,
@@ -1448,7 +1448,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "412 ms to full HTML",
+     "detail": "271 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -1700,7 +1700,7 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-gene-creach-as-chief-executive-officer/1147/",
    "status": 200,
-   "timeMs": 301,
+   "timeMs": 306,
    "bytes": 219705,
    "title": "Careficient Appoints Gene Creach as Chief Executive Officer - Careficient",
    "words": 899,
@@ -1738,7 +1738,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "301 ms to full HTML",
+     "detail": "306 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -1990,7 +1990,7 @@
   {
    "url": "https://careficient.com/news/careficient-announces-hospice-pharmacy-integration-with-onepoint-patient-care/1149/",
    "status": 200,
-   "timeMs": 100,
+   "timeMs": 68,
    "bytes": 218127,
    "title": "Careficient Announces Hospice Pharmacy Integration with OnePoint Patient Care - Careficient",
    "words": 821,
@@ -2028,7 +2028,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "100 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -2280,7 +2280,7 @@
   {
    "url": "https://careficient.com/news/denise-watson-joins-the-careficient-executive-team-as-vice-president-of-hospice-services/1151/",
    "status": 200,
-   "timeMs": 294,
+   "timeMs": 68,
    "bytes": 221095,
    "title": "Denise Watson Joins the Careficient Executive Team as Vice President of Hospice Services - Careficient",
    "words": 995,
@@ -2318,7 +2318,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "294 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -2570,7 +2570,7 @@
   {
    "url": "https://careficient.com/news/careficient-acquires-home-health-hospice-home-care-palliative-and-rcm-solutions-from-net-health/1153/",
    "status": 200,
-   "timeMs": 101,
+   "timeMs": 69,
    "bytes": 218712,
    "title": "Careficient Acquires Home Health, Hospice, Home Care, Palliative and RCM Solutions from Net Health - Careficient",
    "words": 966,
@@ -2608,7 +2608,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "101 ms to full HTML",
+     "detail": "69 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -2860,7 +2860,7 @@
   {
    "url": "https://careficient.com/news/careficient-announces-pharmacy-integration-with-enclara-pharmacia/1156/",
    "status": 200,
-   "timeMs": 100,
+   "timeMs": 71,
    "bytes": 218246,
    "title": "Careficient Announces Pharmacy Integration with Enclara Pharmacia - Careficient",
    "words": 791,
@@ -2898,7 +2898,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "100 ms to full HTML",
+     "detail": "71 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -3150,7 +3150,7 @@
   {
    "url": "https://careficient.com/news/careficient-emr-awarded-chap-verified-seal-certification/1158/",
    "status": 200,
-   "timeMs": 108,
+   "timeMs": 79,
    "bytes": 218506,
    "title": "Careficient EMR Awarded “CHAP VERIFIED” Seal Certification - Careficient",
    "words": 867,
@@ -3188,7 +3188,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "108 ms to full HTML",
+     "detail": "79 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -3440,7 +3440,7 @@
   {
    "url": "https://careficient.com/news/careficient-becomes-the-first-emr-solution-provider-to-receive-achc-accreditation/1160/",
    "status": 200,
-   "timeMs": 108,
+   "timeMs": 71,
    "bytes": 220523,
    "title": "Careficient Becomes the First EMR Solution Provider to Receive ACHC Accreditation - Careficient",
    "words": 863,
@@ -3478,7 +3478,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "108 ms to full HTML",
+     "detail": "71 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -3730,7 +3730,7 @@
   {
    "url": "https://careficient.com/news/careficient-ranks-no-1678-on-the-2022-inc-5000-annual-list/1163/",
    "status": 200,
-   "timeMs": 100,
+   "timeMs": 72,
    "bytes": 219350,
    "title": "Careficient Ranks No.1678 on the 2022 Inc. 5000 Annual List - Careficient",
    "words": 1138,
@@ -3768,7 +3768,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "100 ms to full HTML",
+     "detail": "72 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -4020,7 +4020,7 @@
   {
    "url": "https://careficient.com/news/careficient-broadens-pharmacy-solutions-with-highly-anticipated-betterrx-integration/1165/",
    "status": 200,
-   "timeMs": 110,
+   "timeMs": 69,
    "bytes": 218467,
    "title": "Careficient Broadens Pharmacy Solutions with Highly Anticipated BetterRX Integration - Careficient",
    "words": 900,
@@ -4058,7 +4058,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "110 ms to full HTML",
+     "detail": "69 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -4310,7 +4310,7 @@
   {
    "url": "https://careficient.com/news/careficient-and-celltrak-partner-for-evv-efficiency/1168/",
    "status": 200,
-   "timeMs": 105,
+   "timeMs": 68,
    "bytes": 219424,
    "title": "Careficient and CellTrak Partner for EVV Efficiency - Careficient",
    "words": 1026,
@@ -4348,7 +4348,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "105 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -4600,7 +4600,7 @@
   {
    "url": "https://careficient.com/news/careficient-releases-advanced-e-faxing-capabilities-as-an-add-on-to-the-core-suite-of-emr-solutions/1170/",
    "status": 200,
-   "timeMs": 109,
+   "timeMs": 68,
    "bytes": 219666,
    "title": "Careficient Releases Advanced e-Faxing Capabilities as an Add-on to the Core Suite of EMR Solutions - Careficient",
    "words": 742,
@@ -4638,7 +4638,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "109 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -4890,7 +4890,7 @@
   {
    "url": "https://careficient.com/news/careficient-launches-industry-leading-surveyor-portal-to-expedite-the-survey-process/1172/",
    "status": 200,
-   "timeMs": 99,
+   "timeMs": 75,
    "bytes": 216770,
    "title": "Careficient Launches Industry Leading Surveyor Portal to Expedite the Survey Process - Careficient",
    "words": 751,
@@ -4928,7 +4928,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "99 ms to full HTML",
+     "detail": "75 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -5180,7 +5180,7 @@
   {
    "url": "https://careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
    "status": 200,
-   "timeMs": 106,
+   "timeMs": 67,
    "bytes": 216744,
    "title": "Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient",
    "words": 752,
@@ -5218,7 +5218,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "106 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -5470,7 +5470,7 @@
   {
    "url": "https://careficient.com/news/careficient-makes-the-list-as-one-of-the-fastest-growing-private-companies-in-the-south-east/1176/",
    "status": 200,
-   "timeMs": 108,
+   "timeMs": 74,
    "bytes": 219907,
    "title": "Careficient Makes the List as one of the Fastest-Growing Private Companies in the South East - Careficient",
    "words": 1128,
@@ -5508,7 +5508,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "108 ms to full HTML",
+     "detail": "74 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -5760,7 +5760,7 @@
   {
    "url": "https://careficient.com/education/home-health-documentation-strategies-for-cms-audits/1190/",
    "status": 200,
-   "timeMs": 107,
+   "timeMs": 76,
    "bytes": 214842,
    "title": "Home Health Documentation Strategies for CMS Audits - Careficient",
    "words": 554,
@@ -5798,7 +5798,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "107 ms to full HTML",
+     "detail": "76 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -6050,7 +6050,7 @@
   {
    "url": "https://careficient.com/education/documentation-and-how-it-impacts-federal-government-audit-outcomes-in-hospice/1185/",
    "status": 200,
-   "timeMs": 98,
+   "timeMs": 69,
    "bytes": 215281,
    "title": "Documentation and how it Impacts Federal Government Audit Outcomes in Hospice - Careficient",
    "words": 567,
@@ -6088,7 +6088,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "98 ms to full HTML",
+     "detail": "69 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -6340,7 +6340,7 @@
   {
    "url": "https://careficient.com/education/home-health-case-management/1178/",
    "status": 200,
-   "timeMs": 106,
+   "timeMs": 73,
    "bytes": 213284,
    "title": "Home Health Case Management - Careficient",
    "words": 508,
@@ -6378,7 +6378,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "106 ms to full HTML",
+     "detail": "73 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -6630,7 +6630,7 @@
   {
    "url": "https://careficient.com/education/health-equity-as-a-strategy-for-quality-improvement-in-hospice/3487/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 68,
    "bytes": 213992,
    "title": "Health Equity as a Strategy for Quality Improvement in Hospice - Careficient",
    "words": 563,
@@ -6668,7 +6668,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -6920,7 +6920,7 @@
   {
    "url": "https://careficient.com/education/home-health-proposed-rule-cy2024/3490/",
    "status": 200,
-   "timeMs": 107,
+   "timeMs": 67,
    "bytes": 212655,
    "title": "Home Health Proposed Rule CY2024 - Careficient",
    "words": 511,
@@ -6958,7 +6958,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "107 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -7210,7 +7210,7 @@
   {
    "url": "https://careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
    "status": 200,
-   "timeMs": 98,
+   "timeMs": 68,
    "bytes": 213584,
    "title": "The Value of Leadership, Core Values and Teamwork - Careficient",
    "words": 564,
@@ -7248,7 +7248,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "98 ms to full HTML",
+     "detail": "68 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -7500,7 +7500,7 @@
   {
    "url": "https://careficient.com/education/using-typical-atypical-opioids-for-managing-pain-end-of-life-care/3496/",
    "status": 200,
-   "timeMs": 105,
+   "timeMs": 67,
    "bytes": 213953,
    "title": "Using Typical & Atypical Opioids for Managing Pain & End-of-life Care - Careficient",
    "words": 558,
@@ -7538,7 +7538,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "105 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -7790,7 +7790,7 @@
   {
    "url": "https://careficient.com/education/death-with-dignity-in-hospice-home-health/3499/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 67,
    "bytes": 213490,
    "title": "Death with Dignity in Hospice & Home Health - Careficient",
    "words": 553,
@@ -7828,7 +7828,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -8080,7 +8080,7 @@
   {
    "url": "https://careficient.com/news/hhcn-voices-spotlights-careficient/3541/",
    "status": 200,
-   "timeMs": 109,
+   "timeMs": 81,
    "bytes": 230100,
    "title": "HHCN Voices spotlights Careficient - Careficient",
    "words": 2234,
@@ -8118,7 +8118,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "109 ms to full HTML",
+     "detail": "81 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -8370,7 +8370,7 @@
   {
    "url": "https://careficient.com/news/careficient-emr-empowers-agencies-with-robust-self-training-program-careficient-university/3544/",
    "status": 200,
-   "timeMs": 99,
+   "timeMs": 67,
    "bytes": 218276,
    "title": "Careficient EMR Empowers Agencies with Robust Self-Training Program Careficient University - Careficient",
    "words": 946,
@@ -8408,7 +8408,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "99 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -8660,7 +8660,7 @@
   {
    "url": "https://careficient.com/news/cms-to-mandate-home-health-employees-get-covid-shot-or-agency-risks-losing-medicare-reimbursement/3547/",
    "status": 200,
-   "timeMs": 111,
+   "timeMs": 71,
    "bytes": 218153,
    "title": "CMS to mandate Home Health employees get Covid shot, or agency risks losing Medicare reimbursement - Careficient",
    "words": 986,
@@ -8698,7 +8698,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "111 ms to full HTML",
+     "detail": "71 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -8950,7 +8950,7 @@
   {
    "url": "https://careficient.com/news/flex-for-checks-and-home-health-agencies-you-can-make-a-difference/3549/",
    "status": 200,
-   "timeMs": 101,
+   "timeMs": 73,
    "bytes": 214859,
    "title": "Flex for Checks and Home Health Agencies - You Can Make a Difference - Careficient",
    "words": 626,
@@ -8988,7 +8988,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "101 ms to full HTML",
+     "detail": "73 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -9240,7 +9240,7 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-americas-fastest-growing-companies-by-inc-magazine-ranks-no-1616/3551/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 69,
    "bytes": 220384,
    "title": "Careficient named one of America’s Fastest-Growing Companies by Inc. Magazine. Ranks No. 1,616 - Careficient",
    "words": 1088,
@@ -9278,7 +9278,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "69 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -9530,7 +9530,7 @@
   {
    "url": "https://careficient.com/news/cms-announces-changes-for-notice-of-admission-replacing-rap-in-2022/3555/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 67,
    "bytes": 214477,
    "title": "CMS Announces Changes for Notice of Admission Replacing RAP in 2022 - Careficient",
    "words": 597,
@@ -9568,7 +9568,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "67 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -9820,7 +9820,7 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-brad-caldwell-chief-operating-officer/3553/",
    "status": 200,
-   "timeMs": 98,
+   "timeMs": 66,
    "bytes": 213487,
    "title": "Careficient appoints Brad Caldwell Chief Operating Officer - Careficient",
    "words": 553,
@@ -9858,7 +9858,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "98 ms to full HTML",
+     "detail": "66 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -10110,7 +10110,7 @@
   {
    "url": "https://careficient.com/news/wound-documentation-to-avoid-lost-revenue/3557/",
    "status": 200,
-   "timeMs": 106,
+   "timeMs": 71,
    "bytes": 213791,
    "title": "Wound Documentation to Avoid Lost Revenue - Careficient",
    "words": 650,
@@ -10148,7 +10148,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "106 ms to full HTML",
+     "detail": "71 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -10400,7 +10400,7 @@
   {
    "url": "https://careficient.com/education/courageous-conversations-de-prescribing-medications-to-ensure-patients-die-a-good-death/3502/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 77,
    "bytes": 215023,
    "title": "Courageous Conversations: De-prescribing Medications to Ensure Patients 'Die a Good Death' - Careficient",
    "words": 621,
@@ -10438,7 +10438,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "77 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -10690,7 +10690,7 @@
   {
    "url": "https://careficient.com/education/home-health-final-rule/3505/",
    "status": 200,
-   "timeMs": 98,
+   "timeMs": 74,
    "bytes": 213156,
    "title": "Home Health Final Rule - Careficient",
    "words": 547,
@@ -10728,7 +10728,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "98 ms to full HTML",
+     "detail": "74 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -10980,7 +10980,7 @@
   {
    "url": "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
    "status": 200,
-   "timeMs": 106,
+   "timeMs": 86,
    "bytes": 213866,
    "title": "Visioneering Home Health and Hospice - Careficient",
    "words": 601,
@@ -11018,7 +11018,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "106 ms to full HTML",
+     "detail": "86 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -11270,7 +11270,7 @@
   {
    "url": "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
    "status": 200,
-   "timeMs": 102,
+   "timeMs": 82,
    "bytes": 215129,
    "title": "Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient",
    "words": 602,
@@ -11308,7 +11308,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "102 ms to full HTML",
+     "detail": "82 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -11560,7 +11560,7 @@
   {
    "url": "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
    "status": 200,
-   "timeMs": 104,
+   "timeMs": 74,
    "bytes": 214043,
    "title": "The New World of Home Health Surveys in 2024 - Careficient",
    "words": 621,
@@ -11598,7 +11598,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "104 ms to full HTML",
+     "detail": "74 ms to full HTML",
      "fix": null,
      "weight": 2
     },
@@ -11850,7 +11850,7 @@
   {
    "url": "https://careficient.com/education/grace-for-the-broken-heart/4018/",
    "status": 200,
-   "timeMs": 106,
+   "timeMs": 74,
    "bytes": 213278,
    "title": "Grace for the Broken Heart - Careficient",
    "words": 564,
@@ -11888,7 +11888,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "106 ms to full HTML",
+     "detail": "74 ms to full HTML",
      "fix": null,
      "weight": 2
     },
