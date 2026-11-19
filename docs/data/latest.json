@@ -1,8 +1,8 @@
 {
  "site": "https://careficient.com/",
  "brand": "Careficient",
- "generatedAt": "2026-11-18T21:55:47.319Z",
- "durationMs": 2162,
+ "generatedAt": "2026-11-19T03:25:41.918Z",
+ "durationMs": 2117,
  "scores": {
   "seo": 39,
   "aeo": 31,
@@ -66,7 +66,7 @@
    "id": "ai-crawler-firewall",
    "label": "AI bots not blocked by firewall/CDN",
    "status": "pass",
-   "detail": "GPTBot user-agent got 200, 12,069 bytes",
+   "detail": "GPTBot user-agent got 200, 12,130 bytes",
    "fix": null,
    "weight": 3
   },
@@ -537,8 +537,8 @@
   {
    "url": "https://careficient.com/",
    "status": 200,
-   "timeMs": 478,
-   "bytes": 12119,
+   "timeMs": 530,
+   "bytes": 12164,
    "title": "One moment, please...",
    "words": 8,
    "schemaTypes": [],
@@ -562,7 +562,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "pass",
-     "detail": "478 ms to full HTML",
+     "detail": "530 ms to full HTML",
      "fix": null,
      "weight": 2
     },
