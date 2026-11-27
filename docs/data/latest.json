@@ -1,8 +1,8 @@
 {
  "site": "https://careficient.com/",
  "brand": "Careficient",
- "generatedAt": "2026-11-27T08:29:03.963Z",
- "durationMs": 35223,
+ "generatedAt": "2026-11-27T18:58:14.825Z",
+ "durationMs": 35230,
  "scores": {
   "seo": 94,
   "aeo": 49,
@@ -66,7 +66,7 @@
    "id": "ai-crawler-firewall",
    "label": "AI bots not blocked by firewall/CDN",
    "status": "pass",
-   "detail": "GPTBot user-agent got 200, 372,939 bytes",
+   "detail": "GPTBot user-agent got 200, 373,149 bytes",
    "fix": null,
    "weight": 3
   },
@@ -223,7 +223,7 @@
    "id": "response-time",
    "label": "Fast server response",
    "status": "fail",
-   "detail": "2900 ms to full HTML",
+   "detail": "2907 ms to full HTML",
    "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
    "weight": 2,
    "scope": "page",
@@ -497,7 +497,7 @@
    "id": "freshness",
    "label": "Freshness date signal",
    "status": "warn",
-   "detail": "Updated 1058 days ago",
+   "detail": "Updated 1059 days ago",
    "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
    "weight": 1,
    "scope": "page",
@@ -579,10 +579,10 @@
   {
    "url": "https://careficient.com/",
    "status": 200,
-   "timeMs": 2900,
-   "bytes": 372939,
+   "timeMs": 2907,
+   "bytes": 373149,
    "title": "Home Health & Hospice EMR Software | Careficient",
-   "words": 844,
+   "words": 843,
    "schemaTypes": [
     "WebPage",
     "ReadAction",
@@ -617,7 +617,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2900 ms to full HTML",
+     "detail": "2907 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -725,7 +725,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "844 words",
+     "detail": "843 words",
      "fix": null,
      "weight": 2
     },
@@ -806,7 +806,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "844 words in server HTML · text/HTML ratio 1.6%",
+     "detail": "843 words in server HTML · text/HTML ratio 1.6%",
      "fix": null,
      "weight": 3
     },
@@ -869,10 +869,10 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-steve-williams-as-chief-technology-office/1128/",
    "status": 200,
-   "timeMs": 2034,
-   "bytes": 217040,
+   "timeMs": 2150,
+   "bytes": 217545,
    "title": "Careficient Appoints Steve Williams as Chief Technology Officer - Careficient",
-   "words": 863,
+   "words": 862,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -907,7 +907,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2034 ms to full HTML",
+     "detail": "2150 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -1015,7 +1015,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "863 words",
+     "detail": "862 words",
      "fix": null,
      "weight": 2
     },
@@ -1096,7 +1096,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "863 words in server HTML · text/HTML ratio 2.6%",
+     "detail": "862 words in server HTML · text/HTML ratio 2.6%",
      "fix": null,
      "weight": 3
     },
@@ -1123,7 +1123,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1058 days ago",
+     "detail": "Updated 1059 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -1159,10 +1159,10 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-the-10-best-technology-solution-providers-in-2023/1125/",
    "status": 200,
-   "timeMs": 2339,
-   "bytes": 216485,
+   "timeMs": 2492,
+   "bytes": 217162,
    "title": "Careficient Named One of the 10 Best Technology Solution Providers in 2023 - Careficient",
-   "words": 847,
+   "words": 846,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -1197,7 +1197,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2339 ms to full HTML",
+     "detail": "2492 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -1305,7 +1305,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "847 words",
+     "detail": "846 words",
      "fix": null,
      "weight": 2
     },
@@ -1386,7 +1386,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "847 words in server HTML · text/HTML ratio 2.7%",
+     "detail": "846 words in server HTML · text/HTML ratio 2.7%",
      "fix": null,
      "weight": 3
     },
@@ -1413,7 +1413,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1058 days ago",
+     "detail": "Updated 1059 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -1449,10 +1449,10 @@
   {
    "url": "https://careficient.com/news/careficient-signs-passages-hospice-as-a-landmark-enterprise-account/1131/",
    "status": 200,
-   "timeMs": 2364,
-   "bytes": 222466,
+   "timeMs": 2443,
+   "bytes": 222925,
    "title": "Careficient Signs Passages Hospice as a Landmark Enterprise Account - Careficient",
-   "words": 1076,
+   "words": 1075,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -1487,7 +1487,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2364 ms to full HTML",
+     "detail": "2443 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -1595,7 +1595,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "1076 words",
+     "detail": "1075 words",
      "fix": null,
      "weight": 2
     },
@@ -1676,7 +1676,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "1076 words in server HTML · text/HTML ratio 3.2%",
+     "detail": "1075 words in server HTML · text/HTML ratio 3.2%",
      "fix": null,
      "weight": 3
     },
@@ -1703,7 +1703,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1058 days ago",
+     "detail": "Updated 1059 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -1739,10 +1739,10 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-gene-creach-as-chief-executive-officer/1147/",
    "status": 200,
-   "timeMs": 2420,
-   "bytes": 219585,
+   "timeMs": 2525,
+   "bytes": 220087,
    "title": "Careficient Appoints Gene Creach as Chief Executive Officer - Careficient",
-   "words": 899,
+   "words": 898,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -1777,7 +1777,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2420 ms to full HTML",
+     "detail": "2525 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -1885,7 +1885,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "899 words",
+     "detail": "898 words",
      "fix": null,
      "weight": 2
     },
@@ -1966,7 +1966,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "899 words in server HTML · text/HTML ratio 2.7%",
+     "detail": "898 words in server HTML · text/HTML ratio 2.7%",
      "fix": null,
      "weight": 3
     },
@@ -2029,10 +2029,10 @@
   {
    "url": "https://careficient.com/news/careficient-announces-hospice-pharmacy-integration-with-onepoint-patient-care/1149/",
    "status": 200,
-   "timeMs": 3060,
-   "bytes": 218166,
+   "timeMs": 2165,
+   "bytes": 218687,
    "title": "Careficient Announces Hospice Pharmacy Integration with OnePoint Patient Care - Careficient",
-   "words": 821,
+   "words": 820,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -2067,7 +2067,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "3060 ms to full HTML",
+     "detail": "2165 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -2175,7 +2175,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "821 words",
+     "detail": "820 words",
      "fix": null,
      "weight": 2
     },
@@ -2256,7 +2256,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "821 words in server HTML · text/HTML ratio 2.6%",
+     "detail": "820 words in server HTML · text/HTML ratio 2.6%",
      "fix": null,
      "weight": 3
     },
@@ -2319,10 +2319,10 @@
   {
    "url": "https://careficient.com/news/denise-watson-joins-the-careficient-executive-team-as-vice-president-of-hospice-services/1151/",
    "status": 200,
-   "timeMs": 2130,
-   "bytes": 221283,
+   "timeMs": 2184,
+   "bytes": 221754,
    "title": "Denise Watson Joins the Careficient Executive Team as Vice President of Hospice Services - Careficient",
-   "words": 995,
+   "words": 994,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -2357,7 +2357,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2130 ms to full HTML",
+     "detail": "2184 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -2465,7 +2465,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "995 words",
+     "detail": "994 words",
      "fix": null,
      "weight": 2
     },
@@ -2546,7 +2546,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "995 words in server HTML · text/HTML ratio 3.0%",
+     "detail": "994 words in server HTML · text/HTML ratio 3.0%",
      "fix": null,
      "weight": 3
     },
@@ -2609,10 +2609,10 @@
   {
    "url": "https://careficient.com/news/careficient-acquires-home-health-hospice-home-care-palliative-and-rcm-solutions-from-net-health/1153/",
    "status": 200,
-   "timeMs": 2158,
-   "bytes": 218885,
+   "timeMs": 2214,
+   "bytes": 219299,
    "title": "Careficient Acquires Home Health, Hospice, Home Care, Palliative and RCM Solutions from Net Health - Careficient",
-   "words": 966,
+   "words": 965,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -2647,7 +2647,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2158 ms to full HTML",
+     "detail": "2214 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -2755,7 +2755,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "966 words",
+     "detail": "965 words",
      "fix": null,
      "weight": 2
     },
@@ -2836,7 +2836,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "966 words in server HTML · text/HTML ratio 3.0%",
+     "detail": "965 words in server HTML · text/HTML ratio 2.9%",
      "fix": null,
      "weight": 3
     },
@@ -2899,10 +2899,10 @@
   {
    "url": "https://careficient.com/news/careficient-announces-pharmacy-integration-with-enclara-pharmacia/1156/",
    "status": 200,
-   "timeMs": 2721,
-   "bytes": 218330,
+   "timeMs": 2274,
+   "bytes": 218905,
    "title": "Careficient Announces Pharmacy Integration with Enclara Pharmacia - Careficient",
-   "words": 791,
+   "words": 790,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -2937,7 +2937,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2721 ms to full HTML",
+     "detail": "2274 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -3045,7 +3045,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "791 words",
+     "detail": "790 words",
      "fix": null,
      "weight": 2
     },
@@ -3126,7 +3126,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "791 words in server HTML · text/HTML ratio 2.5%",
+     "detail": "790 words in server HTML · text/HTML ratio 2.5%",
      "fix": null,
      "weight": 3
     },
@@ -3189,10 +3189,10 @@
   {
    "url": "https://careficient.com/news/careficient-emr-awarded-chap-verified-seal-certification/1158/",
    "status": 200,
-   "timeMs": 2124,
-   "bytes": 218650,
+   "timeMs": 2186,
+   "bytes": 219011,
    "title": "Careficient EMR Awarded “CHAP VERIFIED” Seal Certification - Careficient",
-   "words": 867,
+   "words": 866,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -3227,7 +3227,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2124 ms to full HTML",
+     "detail": "2186 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -3335,7 +3335,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "867 words",
+     "detail": "866 words",
      "fix": null,
      "weight": 2
     },
@@ -3416,7 +3416,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "867 words in server HTML · text/HTML ratio 2.7%",
+     "detail": "866 words in server HTML · text/HTML ratio 2.7%",
      "fix": null,
      "weight": 3
     },
@@ -3479,10 +3479,10 @@
   {
    "url": "https://careficient.com/news/careficient-becomes-the-first-emr-solution-provider-to-receive-achc-accreditation/1160/",
    "status": 200,
-   "timeMs": 2262,
-   "bytes": 220556,
+   "timeMs": 2231,
+   "bytes": 221026,
    "title": "Careficient Becomes the First EMR Solution Provider to Receive ACHC Accreditation - Careficient",
-   "words": 863,
+   "words": 862,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -3517,7 +3517,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2262 ms to full HTML",
+     "detail": "2231 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -3625,7 +3625,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "863 words",
+     "detail": "862 words",
      "fix": null,
      "weight": 2
     },
@@ -3706,7 +3706,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "863 words in server HTML · text/HTML ratio 2.7%",
+     "detail": "862 words in server HTML · text/HTML ratio 2.7%",
      "fix": null,
      "weight": 3
     },
@@ -3769,10 +3769,10 @@
   {
    "url": "https://careficient.com/news/careficient-ranks-no-1678-on-the-2022-inc-5000-annual-list/1163/",
    "status": 200,
-   "timeMs": 2146,
-   "bytes": 219134,
+   "timeMs": 2249,
+   "bytes": 219895,
    "title": "Careficient Ranks No.1678 on the 2022 Inc. 5000 Annual List - Careficient",
-   "words": 1138,
+   "words": 1137,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -3807,7 +3807,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2146 ms to full HTML",
+     "detail": "2249 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -3915,7 +3915,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "1138 words",
+     "detail": "1137 words",
      "fix": null,
      "weight": 2
     },
@@ -3996,7 +3996,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "1138 words in server HTML · text/HTML ratio 3.4%",
+     "detail": "1137 words in server HTML · text/HTML ratio 3.4%",
      "fix": null,
      "weight": 3
     },
@@ -4059,10 +4059,10 @@
   {
    "url": "https://careficient.com/news/careficient-broadens-pharmacy-solutions-with-highly-anticipated-betterrx-integration/1165/",
    "status": 200,
-   "timeMs": 2138,
-   "bytes": 218434,
+   "timeMs": 2187,
+   "bytes": 219000,
    "title": "Careficient Broadens Pharmacy Solutions with Highly Anticipated BetterRX Integration - Careficient",
-   "words": 900,
+   "words": 899,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -4097,7 +4097,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2138 ms to full HTML",
+     "detail": "2187 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -4205,7 +4205,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "900 words",
+     "detail": "899 words",
      "fix": null,
      "weight": 2
     },
@@ -4286,7 +4286,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "900 words in server HTML · text/HTML ratio 2.9%",
+     "detail": "899 words in server HTML · text/HTML ratio 2.8%",
      "fix": null,
      "weight": 3
     },
@@ -4349,10 +4349,10 @@
   {
    "url": "https://careficient.com/news/careficient-and-celltrak-partner-for-evv-efficiency/1168/",
    "status": 200,
-   "timeMs": 2086,
-   "bytes": 219810,
+   "timeMs": 2185,
+   "bytes": 220348,
    "title": "Careficient and CellTrak Partner for EVV Efficiency - Careficient",
-   "words": 1026,
+   "words": 1025,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -4387,7 +4387,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2086 ms to full HTML",
+     "detail": "2185 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -4495,7 +4495,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "1026 words",
+     "detail": "1025 words",
      "fix": null,
      "weight": 2
     },
@@ -4576,7 +4576,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "1026 words in server HTML · text/HTML ratio 3.1%",
+     "detail": "1025 words in server HTML · text/HTML ratio 3.1%",
      "fix": null,
      "weight": 3
     },
@@ -4639,10 +4639,10 @@
   {
    "url": "https://careficient.com/news/careficient-releases-advanced-e-faxing-capabilities-as-an-add-on-to-the-core-suite-of-emr-solutions/1170/",
    "status": 200,
-   "timeMs": 2096,
-   "bytes": 219653,
+   "timeMs": 2319,
+   "bytes": 220145,
    "title": "Careficient Releases Advanced e-Faxing Capabilities as an Add-on to the Core Suite of EMR Solutions - Careficient",
-   "words": 742,
+   "words": 741,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -4677,7 +4677,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2096 ms to full HTML",
+     "detail": "2319 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -4785,7 +4785,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "742 words",
+     "detail": "741 words",
      "fix": null,
      "weight": 2
     },
@@ -4866,7 +4866,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "742 words in server HTML · text/HTML ratio 2.3%",
+     "detail": "741 words in server HTML · text/HTML ratio 2.3%",
      "fix": null,
      "weight": 3
     },
@@ -4929,10 +4929,10 @@
   {
    "url": "https://careficient.com/news/careficient-launches-industry-leading-surveyor-portal-to-expedite-the-survey-process/1172/",
    "status": 200,
-   "timeMs": 2071,
-   "bytes": 216910,
+   "timeMs": 2292,
+   "bytes": 217401,
    "title": "Careficient Launches Industry Leading Surveyor Portal to Expedite the Survey Process - Careficient",
-   "words": 751,
+   "words": 750,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -4967,7 +4967,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2071 ms to full HTML",
+     "detail": "2292 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -5013,6 +5013,296 @@
      "label": "Canonical URL set",
      "status": "pass",
      "detail": "https://www.careficient.com/news/careficient-launches-industry-leading-surveyor-portal-to-expedite-the-survey-process/1172/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "28/28 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "pass",
+     "detail": "og:title, og:description, og:image present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "91 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "750 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "16 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "750 words in server HTML · text/HTML ratio 2.3%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 1054 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "22 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 17×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
+   "status": 200,
+   "timeMs": 2301,
+   "bytes": 217424,
+   "title": "Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient",
+   "words": 751,
+   "schemaTypes": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "Person"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "fail",
+     "detail": "2301 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient\" (97 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Careficient Announces Expansion of RCM Services to Home Health and Hospice Agenc\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "3 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
      "fix": null,
      "weight": 2
     },
@@ -5201,296 +5491,6 @@
      "id": "citations",
      "label": "Cites external sources",
      "status": "pass",
-     "detail": "22 outbound links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "brand-mentions",
-     "label": "Brand entity named in copy",
-     "status": "pass",
-     "detail": "\"Careficient\" mentioned 17×",
-     "fix": null,
-     "weight": 1
-    }
-   ]
-  },
-  {
-   "url": "https://careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
-   "status": 200,
-   "timeMs": 2139,
-   "bytes": 216820,
-   "title": "Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient",
-   "words": 752,
-   "schemaTypes": [
-    "Article",
-    "WebPage",
-    "ReadAction",
-    "ImageObject",
-    "BreadcrumbList",
-    "ListItem",
-    "WebSite",
-    "SearchAction",
-    "EntryPoint",
-    "PropertyValueSpecification",
-    "Organization",
-    "Person"
-   ],
-   "scores": {
-    "seo": 88,
-    "aeo": 42,
-    "geo": 77
-   },
-   "checks": [
-    {
-     "category": "seo",
-     "id": "http-status",
-     "label": "HTTP 200 response",
-     "status": "pass",
-     "detail": "Status 200",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "response-time",
-     "label": "Fast server response",
-     "status": "fail",
-     "detail": "2139 ms to full HTML",
-     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "title",
-     "label": "Title tag 30–60 chars",
-     "status": "warn",
-     "detail": "\"Careficient Announces Expansion of RCM Services to Home Health and Hospice Agencies - Careficient\" (97 chars)",
-     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "meta-description",
-     "label": "Meta description 70–160 chars",
-     "status": "pass",
-     "detail": "148 chars",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "h1",
-     "label": "Exactly one H1",
-     "status": "pass",
-     "detail": "1 H1: \"Careficient Announces Expansion of RCM Services to Home Health and Hospice Agenc\"",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "heading-structure",
-     "label": "Uses H2 sub-sections",
-     "status": "pass",
-     "detail": "3 H2 headings",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "canonical",
-     "label": "Canonical URL set",
-     "status": "pass",
-     "detail": "https://www.careficient.com/news/careficient-announces-expansion-of-rcm-services-to-home-health-and-hospice-agencies/1174/",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "indexable",
-     "label": "Indexable (no noindex)",
-     "status": "pass",
-     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "lang",
-     "label": "HTML lang attribute",
-     "status": "pass",
-     "detail": "lang=\"en-US\"",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "viewport",
-     "label": "Mobile viewport meta",
-     "status": "pass",
-     "detail": "width=device-width, initial-scale=1.0",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "img-alt",
-     "label": "Images have alt text",
-     "status": "pass",
-     "detail": "28/28 images with alt",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "open-graph",
-     "label": "Open Graph tags",
-     "status": "pass",
-     "detail": "og:title, og:description, og:image present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "internal-links",
-     "label": "Internal links",
-     "status": "pass",
-     "detail": "91 internal links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "content-length",
-     "label": "Substantive content (300+ words)",
-     "status": "pass",
-     "detail": "752 words",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "https",
-     "label": "Served over HTTPS",
-     "status": "pass",
-     "detail": "https",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "question-headings",
-     "label": "Question-style headings",
-     "status": "fail",
-     "detail": "0 question headings",
-     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "concise-answers",
-     "label": "Concise answers under questions (15–70 words)",
-     "status": "fail",
-     "detail": "0/0 questions followed by a snippet-length answer",
-     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "qa-schema",
-     "label": "FAQ / HowTo / QA schema",
-     "status": "warn",
-     "detail": "None",
-     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "scannable",
-     "label": "Lists or tables for extraction",
-     "status": "pass",
-     "detail": "16 lists, 0 tables",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "structured-data",
-     "label": "Valid JSON-LD present",
-     "status": "pass",
-     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "breadcrumbs",
-     "label": "BreadcrumbList schema",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "lead-summary",
-     "label": "Clear lead summary paragraph",
-     "status": "warn",
-     "detail": "First paragraph 11 words",
-     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "server-rendered",
-     "label": "Content in raw HTML (no JS needed)",
-     "status": "pass",
-     "detail": "752 words in server HTML · text/HTML ratio 2.3%",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "geo",
-     "id": "entity-schema",
-     "label": "Entity schema (Organization/Product)",
-     "status": "pass",
-     "detail": "Organization",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "authorship",
-     "label": "Author / publisher signals",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "freshness",
-     "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 1054 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "statistics",
-     "label": "Specific facts & statistics",
-     "status": "fail",
-     "detail": "0 quantified claims",
-     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "citations",
-     "label": "Cites external sources",
-     "status": "pass",
      "detail": "21 outbound links",
      "fix": null,
      "weight": 1
@@ -5509,10 +5509,10 @@
   {
    "url": "https://careficient.com/news/careficient-makes-the-list-as-one-of-the-fastest-growing-private-companies-in-the-south-east/1176/",
    "status": 200,
-   "timeMs": 2084,
-   "bytes": 219988,
+   "timeMs": 2235,
+   "bytes": 220633,
    "title": "Careficient Makes the List as one of the Fastest-Growing Private Companies in the South East - Careficient",
-   "words": 1128,
+   "words": 1127,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -5547,7 +5547,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2084 ms to full HTML",
+     "detail": "2235 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -5655,7 +5655,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "1128 words",
+     "detail": "1127 words",
      "fix": null,
      "weight": 2
     },
@@ -5736,7 +5736,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "1128 words in server HTML · text/HTML ratio 3.4%",
+     "detail": "1127 words in server HTML · text/HTML ratio 3.3%",
      "fix": null,
      "weight": 3
     },
@@ -5799,10 +5799,10 @@
   {
    "url": "https://careficient.com/education/home-health-documentation-strategies-for-cms-audits/1190/",
    "status": 200,
-   "timeMs": 2117,
-   "bytes": 214527,
+   "timeMs": 2237,
+   "bytes": 215227,
    "title": "Home Health Documentation Strategies for CMS Audits - Careficient",
-   "words": 554,
+   "words": 553,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -5837,7 +5837,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2117 ms to full HTML",
+     "detail": "2237 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -5945,7 +5945,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "554 words",
+     "detail": "553 words",
      "fix": null,
      "weight": 2
     },
@@ -6026,7 +6026,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "554 words in server HTML · text/HTML ratio 1.7%",
+     "detail": "553 words in server HTML · text/HTML ratio 1.7%",
      "fix": null,
      "weight": 3
     },
@@ -6089,10 +6089,10 @@
   {
    "url": "https://careficient.com/education/documentation-and-how-it-impacts-federal-government-audit-outcomes-in-hospice/1185/",
    "status": 200,
-   "timeMs": 2082,
-   "bytes": 215436,
+   "timeMs": 2225,
+   "bytes": 215990,
    "title": "Documentation and how it Impacts Federal Government Audit Outcomes in Hospice - Careficient",
-   "words": 567,
+   "words": 566,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -6127,7 +6127,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2082 ms to full HTML",
+     "detail": "2225 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -6235,7 +6235,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "567 words",
+     "detail": "566 words",
      "fix": null,
      "weight": 2
     },
@@ -6316,7 +6316,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "567 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "566 words in server HTML · text/HTML ratio 1.8%",
      "fix": null,
      "weight": 3
     },
@@ -6379,10 +6379,10 @@
   {
    "url": "https://careficient.com/education/home-health-case-management/1178/",
    "status": 200,
-   "timeMs": 2067,
-   "bytes": 213309,
+   "timeMs": 2224,
+   "bytes": 213620,
    "title": "Home Health Case Management - Careficient",
-   "words": 508,
+   "words": 507,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -6417,7 +6417,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2067 ms to full HTML",
+     "detail": "2224 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -6525,7 +6525,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "508 words",
+     "detail": "507 words",
      "fix": null,
      "weight": 2
     },
@@ -6606,7 +6606,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "508 words in server HTML · text/HTML ratio 1.6%",
+     "detail": "507 words in server HTML · text/HTML ratio 1.6%",
      "fix": null,
      "weight": 3
     },
@@ -6669,10 +6669,10 @@
   {
    "url": "https://careficient.com/education/health-equity-as-a-strategy-for-quality-improvement-in-hospice/3487/",
    "status": 200,
-   "timeMs": 2076,
-   "bytes": 214005,
+   "timeMs": 2158,
+   "bytes": 214383,
    "title": "Health Equity as a Strategy for Quality Improvement in Hospice - Careficient",
-   "words": 563,
+   "words": 562,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -6707,7 +6707,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2076 ms to full HTML",
+     "detail": "2158 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -6753,6 +6753,586 @@
      "label": "Canonical URL set",
      "status": "pass",
      "detail": "https://www.careficient.com/education/health-equity-as-a-strategy-for-quality-improvement-in-hospice/3487/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "28/28 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "pass",
+     "detail": "og:title, og:description, og:image present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "91 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "562 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "562 words in server HTML · text/HTML ratio 1.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 1053 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 10×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/education/home-health-proposed-rule-cy2024/3490/",
+   "status": 200,
+   "timeMs": 2214,
+   "bytes": 213146,
+   "title": "Home Health Proposed Rule CY2024 - Careficient",
+   "words": 510,
+   "schemaTypes": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "Person"
+   ],
+   "scores": {
+    "seo": 93,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "fail",
+     "detail": "2214 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "pass",
+     "detail": "\"Home Health Proposed Rule CY2024 - Careficient\" (46 chars)",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "148 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Home Health Proposed Rule CY2024\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "3 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/education/home-health-proposed-rule-cy2024/3490/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "28/28 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "pass",
+     "detail": "og:title, og:description, og:image present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "91 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "510 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "510 words in server HTML · text/HTML ratio 1.6%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 1053 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 10×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
+   "status": 200,
+   "timeMs": 2192,
+   "bytes": 214115,
+   "title": "The Value of Leadership, Core Values and Teamwork - Careficient",
+   "words": 563,
+   "schemaTypes": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "Person"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "fail",
+     "detail": "2192 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"The Value of Leadership, Core Values and Teamwork - Careficient\" (63 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "151 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"The Value of Leadership, Core Values and Teamwork\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "3 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
      "fix": null,
      "weight": 2
     },
@@ -6957,592 +7537,12 @@
    ]
   },
   {
-   "url": "https://careficient.com/education/home-health-proposed-rule-cy2024/3490/",
-   "status": 200,
-   "timeMs": 2055,
-   "bytes": 212522,
-   "title": "Home Health Proposed Rule CY2024 - Careficient",
-   "words": 511,
-   "schemaTypes": [
-    "Article",
-    "WebPage",
-    "ReadAction",
-    "ImageObject",
-    "BreadcrumbList",
-    "ListItem",
-    "WebSite",
-    "SearchAction",
-    "EntryPoint",
-    "PropertyValueSpecification",
-    "Organization",
-    "Person"
-   ],
-   "scores": {
-    "seo": 93,
-    "aeo": 42,
-    "geo": 77
-   },
-   "checks": [
-    {
-     "category": "seo",
-     "id": "http-status",
-     "label": "HTTP 200 response",
-     "status": "pass",
-     "detail": "Status 200",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "response-time",
-     "label": "Fast server response",
-     "status": "fail",
-     "detail": "2055 ms to full HTML",
-     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "title",
-     "label": "Title tag 30–60 chars",
-     "status": "pass",
-     "detail": "\"Home Health Proposed Rule CY2024 - Careficient\" (46 chars)",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "meta-description",
-     "label": "Meta description 70–160 chars",
-     "status": "pass",
-     "detail": "148 chars",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "h1",
-     "label": "Exactly one H1",
-     "status": "pass",
-     "detail": "1 H1: \"Home Health Proposed Rule CY2024\"",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "heading-structure",
-     "label": "Uses H2 sub-sections",
-     "status": "pass",
-     "detail": "3 H2 headings",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "canonical",
-     "label": "Canonical URL set",
-     "status": "pass",
-     "detail": "https://www.careficient.com/education/home-health-proposed-rule-cy2024/3490/",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "indexable",
-     "label": "Indexable (no noindex)",
-     "status": "pass",
-     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "lang",
-     "label": "HTML lang attribute",
-     "status": "pass",
-     "detail": "lang=\"en-US\"",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "viewport",
-     "label": "Mobile viewport meta",
-     "status": "pass",
-     "detail": "width=device-width, initial-scale=1.0",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "img-alt",
-     "label": "Images have alt text",
-     "status": "pass",
-     "detail": "28/28 images with alt",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "open-graph",
-     "label": "Open Graph tags",
-     "status": "pass",
-     "detail": "og:title, og:description, og:image present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "internal-links",
-     "label": "Internal links",
-     "status": "pass",
-     "detail": "91 internal links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "content-length",
-     "label": "Substantive content (300+ words)",
-     "status": "pass",
-     "detail": "511 words",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "https",
-     "label": "Served over HTTPS",
-     "status": "pass",
-     "detail": "https",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "question-headings",
-     "label": "Question-style headings",
-     "status": "fail",
-     "detail": "0 question headings",
-     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "concise-answers",
-     "label": "Concise answers under questions (15–70 words)",
-     "status": "fail",
-     "detail": "0/0 questions followed by a snippet-length answer",
-     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "qa-schema",
-     "label": "FAQ / HowTo / QA schema",
-     "status": "warn",
-     "detail": "None",
-     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "scannable",
-     "label": "Lists or tables for extraction",
-     "status": "pass",
-     "detail": "17 lists, 0 tables",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "structured-data",
-     "label": "Valid JSON-LD present",
-     "status": "pass",
-     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "breadcrumbs",
-     "label": "BreadcrumbList schema",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "lead-summary",
-     "label": "Clear lead summary paragraph",
-     "status": "warn",
-     "detail": "First paragraph 11 words",
-     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "server-rendered",
-     "label": "Content in raw HTML (no JS needed)",
-     "status": "pass",
-     "detail": "511 words in server HTML · text/HTML ratio 1.6%",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "geo",
-     "id": "entity-schema",
-     "label": "Entity schema (Organization/Product)",
-     "status": "pass",
-     "detail": "Organization",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "authorship",
-     "label": "Author / publisher signals",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "freshness",
-     "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 1053 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "statistics",
-     "label": "Specific facts & statistics",
-     "status": "fail",
-     "detail": "0 quantified claims",
-     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "citations",
-     "label": "Cites external sources",
-     "status": "pass",
-     "detail": "21 outbound links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "brand-mentions",
-     "label": "Brand entity named in copy",
-     "status": "pass",
-     "detail": "\"Careficient\" mentioned 10×",
-     "fix": null,
-     "weight": 1
-    }
-   ]
-  },
-  {
-   "url": "https://careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
-   "status": 200,
-   "timeMs": 2172,
-   "bytes": 213533,
-   "title": "The Value of Leadership, Core Values and Teamwork - Careficient",
-   "words": 564,
-   "schemaTypes": [
-    "Article",
-    "WebPage",
-    "ReadAction",
-    "ImageObject",
-    "BreadcrumbList",
-    "ListItem",
-    "WebSite",
-    "SearchAction",
-    "EntryPoint",
-    "PropertyValueSpecification",
-    "Organization",
-    "Person"
-   ],
-   "scores": {
-    "seo": 88,
-    "aeo": 42,
-    "geo": 77
-   },
-   "checks": [
-    {
-     "category": "seo",
-     "id": "http-status",
-     "label": "HTTP 200 response",
-     "status": "pass",
-     "detail": "Status 200",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "response-time",
-     "label": "Fast server response",
-     "status": "fail",
-     "detail": "2172 ms to full HTML",
-     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "title",
-     "label": "Title tag 30–60 chars",
-     "status": "warn",
-     "detail": "\"The Value of Leadership, Core Values and Teamwork - Careficient\" (63 chars)",
-     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "meta-description",
-     "label": "Meta description 70–160 chars",
-     "status": "pass",
-     "detail": "151 chars",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "h1",
-     "label": "Exactly one H1",
-     "status": "pass",
-     "detail": "1 H1: \"The Value of Leadership, Core Values and Teamwork\"",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "heading-structure",
-     "label": "Uses H2 sub-sections",
-     "status": "pass",
-     "detail": "3 H2 headings",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "canonical",
-     "label": "Canonical URL set",
-     "status": "pass",
-     "detail": "https://www.careficient.com/education/the-value-of-leadership-core-values-and-teamwork/3493/",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "indexable",
-     "label": "Indexable (no noindex)",
-     "status": "pass",
-     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "lang",
-     "label": "HTML lang attribute",
-     "status": "pass",
-     "detail": "lang=\"en-US\"",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "viewport",
-     "label": "Mobile viewport meta",
-     "status": "pass",
-     "detail": "width=device-width, initial-scale=1.0",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "img-alt",
-     "label": "Images have alt text",
-     "status": "pass",
-     "detail": "28/28 images with alt",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "open-graph",
-     "label": "Open Graph tags",
-     "status": "pass",
-     "detail": "og:title, og:description, og:image present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "internal-links",
-     "label": "Internal links",
-     "status": "pass",
-     "detail": "91 internal links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "content-length",
-     "label": "Substantive content (300+ words)",
-     "status": "pass",
-     "detail": "564 words",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "https",
-     "label": "Served over HTTPS",
-     "status": "pass",
-     "detail": "https",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "question-headings",
-     "label": "Question-style headings",
-     "status": "fail",
-     "detail": "0 question headings",
-     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "concise-answers",
-     "label": "Concise answers under questions (15–70 words)",
-     "status": "fail",
-     "detail": "0/0 questions followed by a snippet-length answer",
-     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "qa-schema",
-     "label": "FAQ / HowTo / QA schema",
-     "status": "warn",
-     "detail": "None",
-     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "scannable",
-     "label": "Lists or tables for extraction",
-     "status": "pass",
-     "detail": "17 lists, 0 tables",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "structured-data",
-     "label": "Valid JSON-LD present",
-     "status": "pass",
-     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "breadcrumbs",
-     "label": "BreadcrumbList schema",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "lead-summary",
-     "label": "Clear lead summary paragraph",
-     "status": "warn",
-     "detail": "First paragraph 11 words",
-     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "server-rendered",
-     "label": "Content in raw HTML (no JS needed)",
-     "status": "pass",
-     "detail": "564 words in server HTML · text/HTML ratio 1.8%",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "geo",
-     "id": "entity-schema",
-     "label": "Entity schema (Organization/Product)",
-     "status": "pass",
-     "detail": "Organization",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "authorship",
-     "label": "Author / publisher signals",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "freshness",
-     "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 1053 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "statistics",
-     "label": "Specific facts & statistics",
-     "status": "fail",
-     "detail": "0 quantified claims",
-     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "citations",
-     "label": "Cites external sources",
-     "status": "pass",
-     "detail": "21 outbound links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "brand-mentions",
-     "label": "Brand entity named in copy",
-     "status": "pass",
-     "detail": "\"Careficient\" mentioned 10×",
-     "fix": null,
-     "weight": 1
-    }
-   ]
-  },
-  {
    "url": "https://careficient.com/education/using-typical-atypical-opioids-for-managing-pain-end-of-life-care/3496/",
    "status": 200,
-   "timeMs": 2075,
-   "bytes": 214014,
+   "timeMs": 2209,
+   "bytes": 214510,
    "title": "Using Typical & Atypical Opioids for Managing Pain & End-of-life Care - Careficient",
-   "words": 558,
+   "words": 557,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -7577,7 +7577,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2075 ms to full HTML",
+     "detail": "2209 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -7685,7 +7685,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "558 words",
+     "detail": "557 words",
      "fix": null,
      "weight": 2
     },
@@ -7766,7 +7766,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "558 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "557 words in server HTML · text/HTML ratio 1.8%",
      "fix": null,
      "weight": 3
     },
@@ -7829,10 +7829,10 @@
   {
    "url": "https://careficient.com/education/death-with-dignity-in-hospice-home-health/3499/",
    "status": 200,
-   "timeMs": 2046,
-   "bytes": 213493,
+   "timeMs": 2165,
+   "bytes": 214030,
    "title": "Death with Dignity in Hospice & Home Health - Careficient",
-   "words": 553,
+   "words": 552,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -7867,7 +7867,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2046 ms to full HTML",
+     "detail": "2165 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -7975,7 +7975,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "553 words",
+     "detail": "552 words",
      "fix": null,
      "weight": 2
     },
@@ -8056,7 +8056,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "553 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "552 words in server HTML · text/HTML ratio 1.7%",
      "fix": null,
      "weight": 3
     },
@@ -8083,7 +8083,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1052 days ago",
+     "detail": "Updated 1053 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -8119,10 +8119,10 @@
   {
    "url": "https://careficient.com/news/hhcn-voices-spotlights-careficient/3541/",
    "status": 200,
-   "timeMs": 2098,
-   "bytes": 230247,
+   "timeMs": 2187,
+   "bytes": 230760,
    "title": "HHCN Voices spotlights Careficient - Careficient",
-   "words": 2234,
+   "words": 2233,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -8157,7 +8157,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2098 ms to full HTML",
+     "detail": "2187 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -8265,7 +8265,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "2234 words",
+     "detail": "2233 words",
      "fix": null,
      "weight": 2
     },
@@ -8346,7 +8346,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "2234 words in server HTML · text/HTML ratio 5.9%",
+     "detail": "2233 words in server HTML · text/HTML ratio 5.9%",
      "fix": null,
      "weight": 3
     },
@@ -8373,7 +8373,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -8409,10 +8409,10 @@
   {
    "url": "https://careficient.com/news/careficient-emr-empowers-agencies-with-robust-self-training-program-careficient-university/3544/",
    "status": 200,
-   "timeMs": 2090,
-   "bytes": 218140,
+   "timeMs": 2186,
+   "bytes": 218789,
    "title": "Careficient EMR Empowers Agencies with Robust Self-Training Program Careficient University - Careficient",
-   "words": 946,
+   "words": 945,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -8447,7 +8447,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2090 ms to full HTML",
+     "detail": "2186 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -8555,7 +8555,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "946 words",
+     "detail": "945 words",
      "fix": null,
      "weight": 2
     },
@@ -8636,7 +8636,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "946 words in server HTML · text/HTML ratio 2.9%",
+     "detail": "945 words in server HTML · text/HTML ratio 2.9%",
      "fix": null,
      "weight": 3
     },
@@ -8663,7 +8663,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -8699,10 +8699,10 @@
   {
    "url": "https://careficient.com/news/cms-to-mandate-home-health-employees-get-covid-shot-or-agency-risks-losing-medicare-reimbursement/3547/",
    "status": 200,
-   "timeMs": 2132,
-   "bytes": 218208,
+   "timeMs": 2176,
+   "bytes": 218690,
    "title": "CMS to mandate Home Health employees get Covid shot, or agency risks losing Medicare reimbursement - Careficient",
-   "words": 986,
+   "words": 985,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -8737,7 +8737,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2132 ms to full HTML",
+     "detail": "2176 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -8845,7 +8845,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "986 words",
+     "detail": "985 words",
      "fix": null,
      "weight": 2
     },
@@ -8926,7 +8926,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "986 words in server HTML · text/HTML ratio 3.0%",
+     "detail": "985 words in server HTML · text/HTML ratio 3.0%",
      "fix": null,
      "weight": 3
     },
@@ -8953,7 +8953,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -8989,10 +8989,10 @@
   {
    "url": "https://careficient.com/news/flex-for-checks-and-home-health-agencies-you-can-make-a-difference/3549/",
    "status": 200,
-   "timeMs": 2062,
-   "bytes": 214935,
+   "timeMs": 2145,
+   "bytes": 215450,
    "title": "Flex for Checks and Home Health Agencies - You Can Make a Difference - Careficient",
-   "words": 626,
+   "words": 625,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -9027,7 +9027,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2062 ms to full HTML",
+     "detail": "2145 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -9135,7 +9135,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "626 words",
+     "detail": "625 words",
      "fix": null,
      "weight": 2
     },
@@ -9216,7 +9216,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "626 words in server HTML · text/HTML ratio 1.9%",
+     "detail": "625 words in server HTML · text/HTML ratio 1.9%",
      "fix": null,
      "weight": 3
     },
@@ -9243,7 +9243,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -9279,10 +9279,10 @@
   {
    "url": "https://careficient.com/news/careficient-named-one-of-americas-fastest-growing-companies-by-inc-magazine-ranks-no-1616/3551/",
    "status": 200,
-   "timeMs": 2101,
-   "bytes": 220377,
+   "timeMs": 2182,
+   "bytes": 220750,
    "title": "Careficient named one of America’s Fastest-Growing Companies by Inc. Magazine. Ranks No. 1,616 - Careficient",
-   "words": 1088,
+   "words": 1087,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -9317,7 +9317,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2101 ms to full HTML",
+     "detail": "2182 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -9425,7 +9425,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "1088 words",
+     "detail": "1087 words",
      "fix": null,
      "weight": 2
     },
@@ -9506,7 +9506,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "1088 words in server HTML · text/HTML ratio 3.2%",
+     "detail": "1087 words in server HTML · text/HTML ratio 3.2%",
      "fix": null,
      "weight": 3
     },
@@ -9533,7 +9533,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -9569,10 +9569,10 @@
   {
    "url": "https://careficient.com/news/cms-announces-changes-for-notice-of-admission-replacing-rap-in-2022/3555/",
    "status": 200,
-   "timeMs": 2118,
-   "bytes": 214299,
+   "timeMs": 2176,
+   "bytes": 214993,
    "title": "CMS Announces Changes for Notice of Admission Replacing RAP in 2022 - Careficient",
-   "words": 597,
+   "words": 596,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -9607,7 +9607,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2118 ms to full HTML",
+     "detail": "2176 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -9715,7 +9715,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "597 words",
+     "detail": "596 words",
      "fix": null,
      "weight": 2
     },
@@ -9796,7 +9796,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "597 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "596 words in server HTML · text/HTML ratio 1.8%",
      "fix": null,
      "weight": 3
     },
@@ -9823,7 +9823,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -9859,10 +9859,10 @@
   {
    "url": "https://careficient.com/news/careficient-appoints-brad-caldwell-chief-operating-officer/3553/",
    "status": 200,
-   "timeMs": 2105,
-   "bytes": 213215,
+   "timeMs": 2165,
+   "bytes": 214151,
    "title": "Careficient appoints Brad Caldwell Chief Operating Officer - Careficient",
-   "words": 553,
+   "words": 552,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -9897,7 +9897,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2105 ms to full HTML",
+     "detail": "2165 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -10005,7 +10005,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "553 words",
+     "detail": "552 words",
      "fix": null,
      "weight": 2
     },
@@ -10086,7 +10086,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "553 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "552 words in server HTML · text/HTML ratio 1.8%",
      "fix": null,
      "weight": 3
     },
@@ -10113,7 +10113,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -10149,10 +10149,10 @@
   {
    "url": "https://careficient.com/news/wound-documentation-to-avoid-lost-revenue/3557/",
    "status": 200,
-   "timeMs": 2094,
-   "bytes": 213800,
+   "timeMs": 2160,
+   "bytes": 214317,
    "title": "Wound Documentation to Avoid Lost Revenue - Careficient",
-   "words": 650,
+   "words": 649,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -10187,7 +10187,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2094 ms to full HTML",
+     "detail": "2160 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -10295,7 +10295,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "650 words",
+     "detail": "649 words",
      "fix": null,
      "weight": 2
     },
@@ -10376,7 +10376,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "650 words in server HTML · text/HTML ratio 2.0%",
+     "detail": "649 words in server HTML · text/HTML ratio 2.0%",
      "fix": null,
      "weight": 3
     },
@@ -10403,7 +10403,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1051 days ago",
+     "detail": "Updated 1052 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -10439,10 +10439,10 @@
   {
    "url": "https://careficient.com/education/courageous-conversations-de-prescribing-medications-to-ensure-patients-die-a-good-death/3502/",
    "status": 200,
-   "timeMs": 2087,
-   "bytes": 214955,
+   "timeMs": 2240,
+   "bytes": 215542,
    "title": "Courageous Conversations: De-prescribing Medications to Ensure Patients 'Die a Good Death' - Careficient",
-   "words": 621,
+   "words": 620,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -10477,7 +10477,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2087 ms to full HTML",
+     "detail": "2240 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -10585,7 +10585,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "621 words",
+     "detail": "620 words",
      "fix": null,
      "weight": 2
     },
@@ -10666,7 +10666,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "621 words in server HTML · text/HTML ratio 2.0%",
+     "detail": "620 words in server HTML · text/HTML ratio 2.0%",
      "fix": null,
      "weight": 3
     },
@@ -10729,10 +10729,10 @@
   {
    "url": "https://careficient.com/education/home-health-final-rule/3505/",
    "status": 200,
-   "timeMs": 2084,
-   "bytes": 212963,
+   "timeMs": 2268,
+   "bytes": 213689,
    "title": "Home Health Final Rule - Careficient",
-   "words": 547,
+   "words": 546,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -10767,7 +10767,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2084 ms to full HTML",
+     "detail": "2268 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -10875,7 +10875,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "547 words",
+     "detail": "546 words",
      "fix": null,
      "weight": 2
     },
@@ -10956,7 +10956,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "547 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "546 words in server HTML · text/HTML ratio 1.7%",
      "fix": null,
      "weight": 3
     },
@@ -11019,10 +11019,10 @@
   {
    "url": "https://careficient.com/education/visioneering-home-health-and-hospice/3813/",
    "status": 200,
-   "timeMs": 2106,
-   "bytes": 213840,
+   "timeMs": 2217,
+   "bytes": 214372,
    "title": "Visioneering Home Health and Hospice - Careficient",
-   "words": 601,
+   "words": 600,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -11057,7 +11057,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2106 ms to full HTML",
+     "detail": "2217 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -11103,6 +11103,296 @@
      "label": "Canonical URL set",
      "status": "pass",
      "detail": "https://www.careficient.com/education/visioneering-home-health-and-hospice/3813/",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "indexable",
+     "label": "Indexable (no noindex)",
+     "status": "pass",
+     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "lang",
+     "label": "HTML lang attribute",
+     "status": "pass",
+     "detail": "lang=\"en-US\"",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "viewport",
+     "label": "Mobile viewport meta",
+     "status": "pass",
+     "detail": "width=device-width, initial-scale=1.0",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "img-alt",
+     "label": "Images have alt text",
+     "status": "pass",
+     "detail": "28/28 images with alt",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "open-graph",
+     "label": "Open Graph tags",
+     "status": "pass",
+     "detail": "og:title, og:description, og:image present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "internal-links",
+     "label": "Internal links",
+     "status": "pass",
+     "detail": "91 internal links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "content-length",
+     "label": "Substantive content (300+ words)",
+     "status": "pass",
+     "detail": "600 words",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "https",
+     "label": "Served over HTTPS",
+     "status": "pass",
+     "detail": "https",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "question-headings",
+     "label": "Question-style headings",
+     "status": "fail",
+     "detail": "0 question headings",
+     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "concise-answers",
+     "label": "Concise answers under questions (15–70 words)",
+     "status": "fail",
+     "detail": "0/0 questions followed by a snippet-length answer",
+     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
+     "weight": 3
+    },
+    {
+     "category": "aeo",
+     "id": "qa-schema",
+     "label": "FAQ / HowTo / QA schema",
+     "status": "warn",
+     "detail": "None",
+     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "scannable",
+     "label": "Lists or tables for extraction",
+     "status": "pass",
+     "detail": "17 lists, 0 tables",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "structured-data",
+     "label": "Valid JSON-LD present",
+     "status": "pass",
+     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "aeo",
+     "id": "breadcrumbs",
+     "label": "BreadcrumbList schema",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "aeo",
+     "id": "lead-summary",
+     "label": "Clear lead summary paragraph",
+     "status": "warn",
+     "detail": "First paragraph 11 words",
+     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "server-rendered",
+     "label": "Content in raw HTML (no JS needed)",
+     "status": "pass",
+     "detail": "600 words in server HTML · text/HTML ratio 1.8%",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "geo",
+     "id": "entity-schema",
+     "label": "Entity schema (Organization/Product)",
+     "status": "pass",
+     "detail": "Organization",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "authorship",
+     "label": "Author / publisher signals",
+     "status": "pass",
+     "detail": "Present",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "freshness",
+     "label": "Freshness date signal",
+     "status": "warn",
+     "detail": "Updated 1003 days ago",
+     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "statistics",
+     "label": "Specific facts & statistics",
+     "status": "fail",
+     "detail": "0 quantified claims",
+     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
+     "weight": 2
+    },
+    {
+     "category": "geo",
+     "id": "citations",
+     "label": "Cites external sources",
+     "status": "pass",
+     "detail": "21 outbound links",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "geo",
+     "id": "brand-mentions",
+     "label": "Brand entity named in copy",
+     "status": "pass",
+     "detail": "\"Careficient\" mentioned 10×",
+     "fix": null,
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "url": "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
+   "status": 200,
+   "timeMs": 2184,
+   "bytes": 215520,
+   "title": "Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient",
+   "words": 601,
+   "schemaTypes": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Organization",
+    "Person"
+   ],
+   "scores": {
+    "seo": 88,
+    "aeo": 42,
+    "geo": 77
+   },
+   "checks": [
+    {
+     "category": "seo",
+     "id": "http-status",
+     "label": "HTTP 200 response",
+     "status": "pass",
+     "detail": "Status 200",
+     "fix": null,
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "response-time",
+     "label": "Fast server response",
+     "status": "fail",
+     "detail": "2184 ms to full HTML",
+     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "title",
+     "label": "Title tag 30–60 chars",
+     "status": "warn",
+     "detail": "\"Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient\" (97 chars)",
+     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
+     "weight": 3
+    },
+    {
+     "category": "seo",
+     "id": "meta-description",
+     "label": "Meta description 70–160 chars",
+     "status": "pass",
+     "detail": "152 chars",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "h1",
+     "label": "Exactly one H1",
+     "status": "pass",
+     "detail": "1 H1: \"Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outco\"",
+     "fix": null,
+     "weight": 2
+    },
+    {
+     "category": "seo",
+     "id": "heading-structure",
+     "label": "Uses H2 sub-sections",
+     "status": "pass",
+     "detail": "3 H2 headings",
+     "fix": null,
+     "weight": 1
+    },
+    {
+     "category": "seo",
+     "id": "canonical",
+     "label": "Canonical URL set",
+     "status": "pass",
+     "detail": "https://www.careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
      "fix": null,
      "weight": 2
     },
@@ -11273,297 +11563,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 1003 days ago",
-     "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "statistics",
-     "label": "Specific facts & statistics",
-     "status": "fail",
-     "detail": "0 quantified claims",
-     "fix": "Generative engines favour concrete, quotable numbers — add stats, outcomes and data points.",
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "citations",
-     "label": "Cites external sources",
-     "status": "pass",
-     "detail": "21 outbound links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "brand-mentions",
-     "label": "Brand entity named in copy",
-     "status": "pass",
-     "detail": "\"Careficient\" mentioned 10×",
-     "fix": null,
-     "weight": 1
-    }
-   ]
-  },
-  {
-   "url": "https://careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-   "status": 200,
-   "timeMs": 2078,
-   "bytes": 215129,
-   "title": "Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient",
-   "words": 602,
-   "schemaTypes": [
-    "Article",
-    "WebPage",
-    "ReadAction",
-    "ImageObject",
-    "BreadcrumbList",
-    "ListItem",
-    "WebSite",
-    "SearchAction",
-    "EntryPoint",
-    "PropertyValueSpecification",
-    "Organization",
-    "Person"
-   ],
-   "scores": {
-    "seo": 88,
-    "aeo": 42,
-    "geo": 77
-   },
-   "checks": [
-    {
-     "category": "seo",
-     "id": "http-status",
-     "label": "HTTP 200 response",
-     "status": "pass",
-     "detail": "Status 200",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "response-time",
-     "label": "Fast server response",
-     "status": "fail",
-     "detail": "2078 ms to full HTML",
-     "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "title",
-     "label": "Title tag 30–60 chars",
-     "status": "warn",
-     "detail": "\"Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outcomes - Careficient\" (97 chars)",
-     "fix": "Write a unique, descriptive title of 30–60 characters with the primary keyword first.",
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "meta-description",
-     "label": "Meta description 70–160 chars",
-     "status": "pass",
-     "detail": "152 chars",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "h1",
-     "label": "Exactly one H1",
-     "status": "pass",
-     "detail": "1 H1: \"Age Friendly Care at Home – Individualizing Patient Care to Achieve Better Outco\"",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "heading-structure",
-     "label": "Uses H2 sub-sections",
-     "status": "pass",
-     "detail": "3 H2 headings",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "canonical",
-     "label": "Canonical URL set",
-     "status": "pass",
-     "detail": "https://www.careficient.com/education/age-friendly-care-at-home-individualizing-patient-care-to-achieve-better-outcomes/3808/",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "indexable",
-     "label": "Indexable (no noindex)",
-     "status": "pass",
-     "detail": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "seo",
-     "id": "lang",
-     "label": "HTML lang attribute",
-     "status": "pass",
-     "detail": "lang=\"en-US\"",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "viewport",
-     "label": "Mobile viewport meta",
-     "status": "pass",
-     "detail": "width=device-width, initial-scale=1.0",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "img-alt",
-     "label": "Images have alt text",
-     "status": "pass",
-     "detail": "28/28 images with alt",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "open-graph",
-     "label": "Open Graph tags",
-     "status": "pass",
-     "detail": "og:title, og:description, og:image present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "internal-links",
-     "label": "Internal links",
-     "status": "pass",
-     "detail": "91 internal links",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "seo",
-     "id": "content-length",
-     "label": "Substantive content (300+ words)",
-     "status": "pass",
-     "detail": "602 words",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "seo",
-     "id": "https",
-     "label": "Served over HTTPS",
-     "status": "pass",
-     "detail": "https",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "question-headings",
-     "label": "Question-style headings",
-     "status": "fail",
-     "detail": "0 question headings",
-     "fix": "Phrase some H2/H3s as the questions buyers ask (\"What is home health software?\").",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "concise-answers",
-     "label": "Concise answers under questions (15–70 words)",
-     "status": "fail",
-     "detail": "0/0 questions followed by a snippet-length answer",
-     "fix": "Answer each question directly in the first 40–60 words below the heading, then elaborate.",
-     "weight": 3
-    },
-    {
-     "category": "aeo",
-     "id": "qa-schema",
-     "label": "FAQ / HowTo / QA schema",
-     "status": "warn",
-     "detail": "None",
-     "fix": "Mark up FAQ content with FAQPage (or HowTo/QAPage) JSON-LD.",
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "scannable",
-     "label": "Lists or tables for extraction",
-     "status": "pass",
-     "detail": "17 lists, 0 tables",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "structured-data",
-     "label": "Valid JSON-LD present",
-     "status": "pass",
-     "detail": "Article, WebPage, ReadAction, ImageObject, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, Person",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "aeo",
-     "id": "breadcrumbs",
-     "label": "BreadcrumbList schema",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "aeo",
-     "id": "lead-summary",
-     "label": "Clear lead summary paragraph",
-     "status": "warn",
-     "detail": "First paragraph 11 words",
-     "fix": "Open with a 1–3 sentence summary of what the page offers and for whom.",
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "server-rendered",
-     "label": "Content in raw HTML (no JS needed)",
-     "status": "pass",
-     "detail": "602 words in server HTML · text/HTML ratio 1.9%",
-     "fix": null,
-     "weight": 3
-    },
-    {
-     "category": "geo",
-     "id": "entity-schema",
-     "label": "Entity schema (Organization/Product)",
-     "status": "pass",
-     "detail": "Organization",
-     "fix": null,
-     "weight": 2
-    },
-    {
-     "category": "geo",
-     "id": "authorship",
-     "label": "Author / publisher signals",
-     "status": "pass",
-     "detail": "Present",
-     "fix": null,
-     "weight": 1
-    },
-    {
-     "category": "geo",
-     "id": "freshness",
-     "label": "Freshness date signal",
-     "status": "warn",
-     "detail": "Updated 995 days ago",
+     "detail": "Updated 996 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
@@ -11599,10 +11599,10 @@
   {
    "url": "https://careficient.com/education/the-new-world-of-home-health-surveys-in-2024/3965/",
    "status": 200,
-   "timeMs": 2082,
-   "bytes": 213902,
+   "timeMs": 2207,
+   "bytes": 214570,
    "title": "The New World of Home Health Surveys in 2024 - Careficient",
-   "words": 621,
+   "words": 620,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -11637,7 +11637,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2082 ms to full HTML",
+     "detail": "2207 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -11745,7 +11745,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "621 words",
+     "detail": "620 words",
      "fix": null,
      "weight": 2
     },
@@ -11826,7 +11826,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "621 words in server HTML · text/HTML ratio 2.0%",
+     "detail": "620 words in server HTML · text/HTML ratio 2.0%",
      "fix": null,
      "weight": 3
     },
@@ -11889,10 +11889,10 @@
   {
    "url": "https://careficient.com/education/grace-for-the-broken-heart/4018/",
    "status": 200,
-   "timeMs": 2044,
-   "bytes": 213264,
+   "timeMs": 2178,
+   "bytes": 213634,
    "title": "Grace for the Broken Heart - Careficient",
-   "words": 564,
+   "words": 563,
    "schemaTypes": [
     "Article",
     "WebPage",
@@ -11927,7 +11927,7 @@
      "id": "response-time",
      "label": "Fast server response",
      "status": "fail",
-     "detail": "2044 ms to full HTML",
+     "detail": "2178 ms to full HTML",
      "fix": "Improve TTFB: enable caching/CDN, reduce server work on page render.",
      "weight": 2
     },
@@ -12035,7 +12035,7 @@
      "id": "content-length",
      "label": "Substantive content (300+ words)",
      "status": "pass",
-     "detail": "564 words",
+     "detail": "563 words",
      "fix": null,
      "weight": 2
     },
@@ -12116,7 +12116,7 @@
      "id": "server-rendered",
      "label": "Content in raw HTML (no JS needed)",
      "status": "pass",
-     "detail": "564 words in server HTML · text/HTML ratio 1.8%",
+     "detail": "563 words in server HTML · text/HTML ratio 1.7%",
      "fix": null,
      "weight": 3
     },
@@ -12143,7 +12143,7 @@
      "id": "freshness",
      "label": "Freshness date signal",
      "status": "warn",
-     "detail": "Updated 832 days ago",
+     "detail": "Updated 833 days ago",
      "fix": "Expose dateModified in schema and keep key pages updated within 12 months.",
      "weight": 1
     },
